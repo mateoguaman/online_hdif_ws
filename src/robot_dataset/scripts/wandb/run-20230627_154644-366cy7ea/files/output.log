@@ -1,0 +1,183 @@
+waiting 2s for topics...
+Iteration 1/1000000
+Iteration 2/1000000
+Iteration 3/1000000
+Iteration 4/1000000
+Iteration 5/1000000
+Iteration 6/1000000
+Iteration 7/1000000
+Iteration 8/1000000
+Iteration 9/1000000
+Iteration 10/1000000
+> /home/mateo/robot_dataset/scripts/online_robot_trainer.py(97)transform()
+-> pose = np.stack([px, py, yaw], axis=-1)
+(Pdb) px
+array([80.31616 , 80.255585, 80.22198 , 80.333595, 80.333595, 80.31616 ,
+       80.31616 , 80.22198 , 80.26453 , 80.31616 , 80.31616 , 80.24066 ,
+       80.26453 , 80.26453 , 80.24066 , 80.26453 , 80.32484 , 80.24066 ,
+       80.22198 , 80.22782 , 80.26453 , 80.22198 , 80.22198 , 80.333595,
+       80.26453 , 80.26453 , 80.333595, 80.22198 , 80.23314 , 80.24066 ,
+       80.31616 , 80.31616 , 80.26453 , 80.20003 , 80.32484 , 80.333595,
+       80.20003 , 80.255585, 80.24066 , 80.23314 , 80.333595, 80.20003 ,
+       80.22198 , 80.23314 , 80.32484 , 80.31616 , 80.22198 , 80.255585,
+       80.26453 , 80.24066 , 80.24066 , 80.32484 , 80.22782 , 80.20003 ,
+       80.26453 , 80.333595, 80.24066 , 80.20003 , 80.26453 , 80.333595,
+       80.22198 , 80.31616 , 80.22198 , 80.23314 ], dtype=float32)
+
+(Pdb) px.shape
+(64,)
+(Pdb) py
+array([383.4354 , 380.17914, 380.6089 , 384.12482, 384.12482, 383.4354 ,
+       383.4354 , 380.6089 , 382.6567 , 383.4354 , 383.4354 , 382.31317,
+       382.6567 , 382.6567 , 382.31317, 382.6567 , 383.69547, 382.31317,
+       380.6089 , 381.80283, 382.6567 , 380.6089 , 380.6089 , 384.12482,
+       382.6567 , 382.6567 , 384.12482, 380.6089 , 382.14362, 382.31317,
+       383.4354 , 383.4354 , 382.6567 , 380.9519 , 383.69547, 384.12482,
+       380.9519 , 380.17914, 382.31317, 382.14362, 384.12482, 380.9519 ,
+       380.6089 , 382.14362, 383.69547, 383.4354 , 380.6089 , 380.17914,
+       382.6567 , 382.31317, 382.31317, 383.69547, 381.80283, 380.9519 ,
+       382.6567 , 384.12482, 382.31317, 380.9519 , 382.6567 , 384.12482,
+       380.6089 , 383.4354 , 380.6089 , 382.14362], dtype=float32)
+(Pdb) py.shape
+(64,)
+(Pdb) yaw
+array([[ 5.0715428e-02, -3.7566423e-02,  3.0770745e+00],
+       [ 5.4621138e-02, -1.2802124e-02,  3.1366537e+00],
+       [ 5.4503039e-02, -1.0216236e-04,  3.1339035e+00],
+       [ 5.0018720e-02, -3.7341237e-02,  3.0739365e+00],
+       [ 5.0018720e-02, -3.7341237e-02,  3.0739365e+00],
+       [ 5.0715428e-02, -3.7566423e-02,  3.0770745e+00],
+       [ 5.0715428e-02, -3.7566423e-02,  3.0770745e+00],
+       [ 5.4503039e-02, -1.0216236e-04,  3.1339035e+00],
+       [ 4.6723757e-02, -1.7226338e-02,  3.0821478e+00],
+       [ 5.0715428e-02, -3.7566423e-02,  3.0770745e+00],
+       [ 5.0715428e-02, -3.7566423e-02,  3.0770745e+00],
+       [ 4.8464336e-02, -6.4724684e-03,  3.0877640e+00],
+       [ 4.6723757e-02, -1.7226338e-02,  3.0821478e+00],
+       [ 4.6723757e-02, -1.7226338e-02,  3.0821478e+00],
+       [ 4.8464336e-02, -6.4724684e-03,  3.0877640e+00],
+       [ 4.6723757e-02, -1.7226338e-02,  3.0821478e+00],
+       [ 5.2074365e-02, -3.8337827e-02,  3.0771716e+00],
+       [ 4.8464336e-02, -6.4724684e-03,  3.0877640e+00],
+       [ 5.4503039e-02, -1.0216236e-04,  3.1339035e+00],
+       [ 5.3423386e-02,  1.6168356e-03,  3.0999367e+00],
+       [ 4.6723757e-02, -1.7226338e-02,  3.0821478e+00],
+       [ 5.4503039e-02, -1.0216236e-04,  3.1339035e+00],
+       [ 5.4503039e-02, -1.0216236e-04,  3.1339035e+00],
+       [ 5.0018720e-02, -3.7341237e-02,  3.0739365e+00],
+       [ 4.6723757e-02, -1.7226338e-02,  3.0821478e+00],
+       [ 4.6723757e-02, -1.7226338e-02,  3.0821478e+00],
+       [ 5.0018720e-02, -3.7341237e-02,  3.0739365e+00],
+       [ 5.4503039e-02, -1.0216236e-04,  3.1339035e+00],
+       [ 5.0847683e-02, -2.8138161e-03,  3.0910084e+00],
+       [ 4.8464336e-02, -6.4724684e-03,  3.0877640e+00],
+       [ 5.0715428e-02, -3.7566423e-02,  3.0770745e+00],
+       [ 5.0715428e-02, -3.7566423e-02,  3.0770745e+00],
+       [ 4.6723757e-02, -1.7226338e-02,  3.0821478e+00],
+       [ 5.3378716e-02,  6.1817169e-03,  3.1275318e+00],
+       [ 5.2074365e-02, -3.8337827e-02,  3.0771716e+00],
+       [ 5.0018720e-02, -3.7341237e-02,  3.0739365e+00],
+       [ 5.3378716e-02,  6.1817169e-03,  3.1275318e+00],
+       [ 5.4621138e-02, -1.2802124e-02,  3.1366537e+00],
+       [ 4.8464336e-02, -6.4724684e-03,  3.0877640e+00],
+       [ 5.0847683e-02, -2.8138161e-03,  3.0910084e+00],
+       [ 5.0018720e-02, -3.7341237e-02,  3.0739365e+00],
+       [ 5.3378716e-02,  6.1817169e-03,  3.1275318e+00],
+       [ 5.4503039e-02, -1.0216236e-04,  3.1339035e+00],
+       [ 5.0847683e-02, -2.8138161e-03,  3.0910084e+00],
+       [ 5.2074365e-02, -3.8337827e-02,  3.0771716e+00],
+       [ 5.0715428e-02, -3.7566423e-02,  3.0770745e+00],
+       [ 5.4503039e-02, -1.0216236e-04,  3.1339035e+00],
+       [ 5.4621138e-02, -1.2802124e-02,  3.1366537e+00],
+       [ 4.6723757e-02, -1.7226338e-02,  3.0821478e+00],
+       [ 4.8464336e-02, -6.4724684e-03,  3.0877640e+00],
+       [ 4.8464336e-02, -6.4724684e-03,  3.0877640e+00],
+       [ 5.2074365e-02, -3.8337827e-02,  3.0771716e+00],
+       [ 5.3423386e-02,  1.6168356e-03,  3.0999367e+00],
+       [ 5.3378716e-02,  6.1817169e-03,  3.1275318e+00],
+       [ 4.6723757e-02, -1.7226338e-02,  3.0821478e+00],
+       [ 5.0018720e-02, -3.7341237e-02,  3.0739365e+00],
+       [ 4.8464336e-02, -6.4724684e-03,  3.0877640e+00],
+       [ 5.3378716e-02,  6.1817169e-03,  3.1275318e+00],
+       [ 4.6723757e-02, -1.7226338e-02,  3.0821478e+00],
+       [ 5.0018720e-02, -3.7341237e-02,  3.0739365e+00],
+       [ 5.4503039e-02, -1.0216236e-04,  3.1339035e+00],
+       [ 5.0715428e-02, -3.7566423e-02,  3.0770745e+00],
+       [ 5.4503039e-02, -1.0216236e-04,  3.1339035e+00],
+       [ 5.0847683e-02, -2.8138161e-03,  3.0910084e+00]], dtype=float32)
+(Pdb) yaw[]
+(Pdb) yaw[:,-1]
+       3.1275318, 3.1366537, 3.087764 , 3.0910084, 3.0739365, 3.1275318,
+       3.1275318, 3.1366537, 3.087764 , 3.0910084, 3.0739365, 3.1275318,
+(Pdb)  3.1275318, 3.1366537, 3.087764 , 3.0910084, 3.0739365, 3.1275318,
+(Pdb)
+(Pdb) pose
+(Pdb) pose = np.stac
+(Pdb) pose = np.stack()
+(Pdb) pose = np.stack([px, ])
+(Pdb) pose = np.stack([px, py, ya])
+(Pdb) pose = np.stack([px, py, yaw[]])
+(Pdb) pose = np.stack([px, py, yaw[:, -1]])
+(Pdb) pose = np.stack([px, py, yaw[:, -1]])
+(Pdb) pose = np.stack([px, py, yaw[:, -1]], )
+(Pdb) pose = np.stack([px, py, yaw[:, -1]], axis=1-)
+(Pdb) pose = np.stack([px, py, yaw[:, -1]], axis=1-)
+(Pdb) pose = np.stack([px, py, yaw[:, -1]], axis=1-)
+(Pdb) pose = np.stack([px, py, yaw[:, -1]], axis=1-)
+(64, 3)ose = np.stack([px, py, yaw[:, -1]], axis=1-)
+(64, 3)ose = np.stack([px, py, yaw[:, -1]], axis=1-)
+(64, 3)ose = np.stack([px, py, yaw[:, -1]], axis=1-)
+(64, 3)ose = np.stack([px, py, yaw[:, -1]], axis=1-)
+(64, 3)ose = np.stack([px, py, yaw[:, -1]], axis=1-)
+(64, 3)ose = np.stack([px, py, yaw[:, -1]], axis=1-)
+(64, 3)ose = np.stack([px, py, yaw[:, -1]], axis=1-)
+(64, 3)ose = np.stack([px, py, yaw[:, -1]], axis=1-)
+(64, 3)ose = np.stack([px, py, yaw[:, -1]], axis=1-)
+(64, 3)ose = np.stack([px, py, yaw[:, -1]], axis=1-)
+(64, 3)ose = np.stack([px, py, yaw[:, -1]], axis=1-)
+(64, 3)ose = np.stack([px, py, yaw[:, -1]], axis=1-)
+(Pdb) )ose = np.stack([px, py, yaw[:, -1]], axis=1-)
+(Pdb) )ose = np.stack([px, py, yaw[:, -1]], axis=1-)
+(64, 3)ose = np.stack([px, py, yaw[:, -1]], axis=1-)
+(64, 3)ose = np.stack([px, py, yaw[:, -1]], axis=1-)
+(64, 3)ose = np.stack([px, py, yaw[:, -1]], axis=1-)
+(64, 3)ose = np.stack([px, py, yaw[:, -1]], axis=1-)
+(64, 3)ose = np.stack([px, py, yaw[:, -1]], axis=1-)
+(64, 3)ose = np.stack([px, py, yaw[:, -1]], axis=1-)
+(64, 3)ose = np.stack([px, py, yaw[:, -1]], axis=1-)
+Traceback (most recent call last):
+  File "online_robot_trainer.py", line 208, in <module>
+    main()
+  File "online_robot_trainer.py", line 187, in main
+    train_metrics = agent.update(model, batch, data_transform, optimizer)
+  File "online_robot_trainer.py", line 113, in update
+    states, actions, ground_truth = data_transform(batch)
+  File "online_robot_trainer.py", line 97, in transform
+    pose = np.stack([px, py, yaw], axis=-1)
+  File "online_robot_trainer.py", line 97, in transform
+    pose = np.stack([px, py, yaw], axis=-1)
+  File "/usr/lib/python3.8/bdb.py", line 88, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/usr/lib/python3.8/bdb.py", line 113, in dispatch_line
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit
+/usr/lib/python3/dist-packages/apport/report.py:13: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import fnmatch, glob, traceback, errno, sys, atexit, imp, stat
+Traceback (most recent call last):
+  File "online_robot_trainer.py", line 208, in <module>
+    main()
+  File "online_robot_trainer.py", line 187, in main
+    train_metrics = agent.update(model, batch, data_transform, optimizer)
+  File "online_robot_trainer.py", line 113, in update
+    states, actions, ground_truth = data_transform(batch)
+  File "online_robot_trainer.py", line 97, in transform
+    pose = np.stack([px, py, yaw], axis=-1)
+  File "online_robot_trainer.py", line 97, in transform
+    pose = np.stack([px, py, yaw], axis=-1)
+  File "/usr/lib/python3.8/bdb.py", line 88, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/usr/lib/python3.8/bdb.py", line 113, in dispatch_line
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit
+(64, 3)ose = np.stack([px, py, yaw[:, -1]], axis=1-)
+(64, 3)ose = np.stack([px, py, yaw[:, -1]], axis=1-)

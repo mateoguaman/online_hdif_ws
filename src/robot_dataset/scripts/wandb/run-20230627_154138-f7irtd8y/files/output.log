@@ -1,0 +1,16 @@
+waiting 2s for topics...
+Iteration 0/1000000
+Traceback (most recent call last):
+  File "online_robot_trainer.py", line 206, in <module>
+    main()
+  File "online_robot_trainer.py", line 196, in main
+    with open(dataset_file, "wb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/media/mateo/MateoSSD/online_training/datasets/buffer_0'
+/usr/lib/python3/dist-packages/apport/report.py:13: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import fnmatch, glob, traceback, errno, sys, atexit, imp, stat
+Traceback (most recent call last):
+  File "online_robot_trainer.py", line 206, in <module>
+    main()
+  File "online_robot_trainer.py", line 196, in main
+    with open(dataset_file, "wb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/media/mateo/MateoSSD/online_training/datasets/buffer_0'

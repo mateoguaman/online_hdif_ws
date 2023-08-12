@@ -1,0 +1,166 @@
+<?xml version="1.0"?>
+
+<launch>
+
+    <!-- 
+        =======================
+        Launch TartanVO mapping 
+        =======================
+    -->
+    <arg name="robot" default="lester"/>	      
+
+    <node pkg="physics_atv_deep_stereo_vo" type="stereo_node_multisense.py" name="stereo_node_multisense" output="screen"> 
+        <param name ="/pc_transform_ground" value="false"/>
+        <param name ="/pc_max_dist" value="20.0"/>
+        <param name ="/pc_min_dist" value="1"/>
+        <param name ="/pc_max_height" value="2.0"/>
+        <param name ="/image_rect" value="true"/>
+        <param name ="/color_image_topic" value=""/>
+        <param name ="/left_image_topic" value="/$(arg robot)/stereo_left/image_rect_color/compressed"/>
+        <param name ="/right_image_topic" value="/$(arg robot)/stereo_right/image_rect_color/compressed"/>
+        <param name ="/visualize_depth" value="false"/>
+        <param name ="/image_input_w" value="512"/>
+        <param name ="/image_input_h" value="256"/>
+
+        <!-- <param name ="/image_width" value="1440"/>
+        <param name ="/image_height" value="1080"/>
+        <param name ="/focal_x" value="1120.35"/>
+        <param name ="/focal_y" value="1120.35"/>
+        <param name ="/center_x" value="750.2"/>
+        <param name ="/center_y" value="599.97"/>
+        <param name ="/focal_x_baseline" value="879.466"/>
+        <param name ="/image_crop_w" value="0"/>
+        <param name ="/image_crop_h_low" value="360"/>
+        <param name ="/image_crop_h_high" value="0"/>
+        <param name ="/mask_file" value="dummy_mask.npy"/>
+        <param name ="/image_compressed" value="true"/>
+        <param name ="/stereo_maps" value="warthog5_20221213.npy"/>
+        <param name ="/approximate_sync" value="true"/>
+        <param name ="/color_correction" value="true"/>
+        <param name ="/uncertainty_thresh" value="-2.0"/> -->
+
+
+        <param name ="/image_width" value="1440"/>
+        <param name ="/image_height" value="1080"/>
+        <param name ="/focal_x" value="1190.74"/>
+        <param name ="/focal_y" value="1187.84"/>
+        <param name ="/center_x" value="726.52"/>
+        <param name ="/center_y" value="548.08"/>
+        <param name ="/focal_x_baseline" value="610.85"/>
+        <param name ="/image_crop_w" value="0"/>
+        <param name ="/image_crop_h_low" value="360"/>
+        <param name ="/image_crop_h_high" value="0"/>
+        <param name ="/mask_file" value="dummy_mask.npy"/>
+        <param name ="/image_compressed" value="true"/>
+        <param name ="/stereo_maps" value="warthog5_20221213.npy"/>
+        <param name ="/approximate_sync" value="true"/>
+        <param name ="/color_correction" value="true"/>
+        <param name ="/uncertainty_thresh" value="-2.0"/>
+
+        <param name ="/model_name" value="6_3_2_stereo_60000.pkl"/>
+        <param name ="/network_type" value="1"/>
+        <param name ="/robot" value="$(arg robot)"/>
+        <param name ="/world_tf_name" value="$(arg robot)/odom"/>
+        <param name ="/base_tf_name" value="$(arg robot)/base"/>
+    </node>
+
+    <node pkg="physics_atv_deep_stereo_vo" type="tartanvo_node.py" name="tartanvo_node" output="screen"> 
+        <param name ="/left_image_topic" value="/$(arg robot)/stereo_left/image_rect_color/compressed"/>
+        <param name ="/right_image_topic" value="/$(arg robot)/stereo_right/image_rect_color/compressed"/>
+        <param name ="/image_width" value="1440"/>
+        <param name ="/image_height" value="1080"/>
+
+        <!-- <param name ="/focal_x" value="1120.35"/>
+        <param name ="/focal_y" value="1120.35"/>
+        <param name ="/center_x" value="750.2"/>
+        <param name ="/center_y" value="599.97"/> -->
+
+        <param name ="/focal_x" value="1190.74"/>
+        <param name ="/focal_y" value="1187.84"/>
+        <param name ="/center_x" value="726.52"/>
+        <param name ="/center_y" value="548.08"/>
+
+        <param name ="/resize_w" value="640"/>
+        <param name ="/resize_h" value="480"/>
+
+        <!-- <param name ="/focal_x_baseline" value="879.466"/> -->
+        <param name ="/focal_x_baseline" value="610.85"/>
+
+        <param name ="/image_compressed" value="true"/>
+        <param name ="/stereo_maps" value="warthog5_20221213.npy"/>
+        <param name ="/approximate_sync" value="true"/>
+        <param name ="/robot" value="$(arg robot)"/>
+        <param name ="/color_correction" value="true"/>
+    </node> 
+
+    <node pkg="physics_atv_local_mapping" type="local_mapping_node" name="local_mapping_node" output="screen" > 
+        <param name ="/filter_outliers" value="false"/>
+        <param name ="/downsample_pointcloud_before" value="true"/>
+        <param name ="/downsample_leafsize_before" value="0.05"/>
+        <param name ="/downsample_pointcloud_after" value="true"/>
+        <param name ="/downsample_leafsize_after" value="0.05"/>
+        <param name ="/resolution" value="0.02"/>
+        <!-- <param name ="/max_x" value="10"/>
+        <param name ="/min_x" value="-10"/>
+        <param name ="/max_y" value="10"/>
+        <param name ="/min_y" value="-10"/> -->
+        <param name ="/max_x" value="10"/>
+        <param name ="/min_x" value="-2"/>
+        <param name ="/max_y" value="6"/>
+        <param name ="/min_y" value="-6"/>
+        <param name ="/visualize_maps" value="false"/>
+        <param name ="/publish_pc_for_debug" value="true"/>
+        <param name ="/platform" value="warthog"/>
+        <param name ="/robot" value="$(arg robot)"/>
+        <param name ="/pointcloud_topic" value="/deep_cloud"/>
+        <param name ="/pose_topic" value="/tartanvo_pose"/>
+        <param name ="/odom_topic" value="/tartanvo_odom"/>
+        <param name ="/pc_frame_skip" value="5"/>
+        <param name ="/pc_buffer_size" value="10"/>
+        <param name ="/downsample_pointcloud_after_thresh" value="50000"/>
+        <param name ="/max_points_in_cloud" value="200000"/>
+        <param name="/align_gravity" value="false"/>
+    </node> 
+
+
+    <!-- 
+        ============================
+        Launch HDIF Learned Costmaps 
+        ============================
+    -->
+
+
+    <!-- Arguments for costmap_node -->
+    <!-- <arg name="model_dir" default="$(find learned_cost_map)/models/train_CostFourierVelModel_lr_3e-4_g_99e-1_bal_aug_l2_scale_10.0"/>  -->
+    <arg name="model_dir" default="$(find learned_cost_map)/models/finetune_warthog5_CostFourierVelModel_MLP_512_lr_0.00003_freqs_8_betterData_0"/>
+    <arg name="model_name" default="CostFourierVelModel"/>
+    <arg name="map_config" default="$(find learned_cost_map)/configs/wanda_map_params.yaml"/> 
+    <arg name="costmap_config" default="$(find learned_cost_map)/configs/output_costmap_params.yaml"/> 
+    <arg name="height_map_topic" default="/local_height_map_inflate"/>
+    <arg name="rgb_map_topic" default="/local_rgb_map_inflate"/>
+    <arg name="odometry_topic" default="/$(arg robot)/odom"/>
+    <arg name="invalid_cost" default="0.5"/>
+
+    <!-- Arguments for traversability_cost_publisher -->
+    <arg name="cost_stats_dir" default="$(find learned_cost_map)/scripts/learned_cost_map/ros/wanda_cost_statistics.yaml"/>
+    <arg name="imu_topic" default="/$(arg robot)/imu/data"/>
+
+
+    <!-- <node pkg="learned_cost_map" type="costmap_node.py" name="learned_costmap_node" output="screen">
+        <param name="model_name" value="$(arg model_name)"/>
+        <param name="model_dir" value="$(arg model_dir)"/>
+        <param name="map_config" value="$(arg map_config)"/>
+        <param name="costmap_config" value="$(arg costmap_config)"/>
+        <param name="height_map_topic" value="$(arg height_map_topic)"/>
+        <param name="rgb_map_topic" value="$(arg rgb_map_topic)"/>
+        <param name="odometry_topic" value="$(arg odometry_topic)"/>
+        <param name="invalid_cost" value="$(arg invalid_cost)"/>
+    </node>      -->
+
+    <node pkg="learned_cost_map" type="cost_publisher.py" name="traversability_cost_publisher" output="screen">
+        <param name="cost_stats_dir" value="$(arg cost_stats_dir)"/>
+        <param name="imu_topic" value="$(arg imu_topic)"/>
+    </node>
+
+</launch>
+

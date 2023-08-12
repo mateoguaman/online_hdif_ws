@@ -1,0 +1,3 @@
+roslaunch physics_atv_deep_stereo_vo multisense_vo.launch
+  - disable image_warp when using rect image
+  - set the Fixed Frame to multisense_init to visualize the colored point cloud with VO registration

@@ -1,0 +1,35 @@
+waiting 2s for topics...
+Iteration 1/1000000
+Iteration 2/1000000
+Iteration 3/1000000
+Iteration 4/1000000
+Iteration 5/1000000
+Iteration 6/1000000
+Iteration 7/1000000
+Iteration 8/1000000
+Iteration 9/1000000
+Iteration 10/1000000
+Training loss: 12.507720947265625
+Training loss: 5.560525894165039
+Training loss: 2.6605050563812256
+Training loss: 0.8968076705932617
+Training loss: 0.14872771501541138
+Training loss: 0.20616799592971802
+Training loss: 0.6325135231018066
+Training loss: 1.1246411800384521
+Training loss: 1.4460233449935913
+Training loss: 1.5027618408203125
+Traceback (most recent call last):
+  File "online_robot_trainer.py", line 208, in <module>
+    main()
+  File "online_robot_trainer.py", line 198, in main
+    with open(dataset_file, "wb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/media/mateo/MateoSSD/online_training/datasets/buffer_10.pickle'
+/usr/lib/python3/dist-packages/apport/report.py:13: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import fnmatch, glob, traceback, errno, sys, atexit, imp, stat
+Traceback (most recent call last):
+  File "online_robot_trainer.py", line 208, in <module>
+    main()
+  File "online_robot_trainer.py", line 198, in main
+    with open(dataset_file, "wb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/media/mateo/MateoSSD/online_training/datasets/buffer_10.pickle'

@@ -1,0 +1,29 @@
+waiting 2s for topics...
+Iteration 1/1000000
+Iteration 2/1000000
+Iteration 3/1000000
+Iteration 4/1000000
+Iteration 5/1000000
+Iteration 6/1000000
+Traceback (most recent call last):
+  File "online_robot_trainer.py", line 208, in <module>
+    main()
+  File "online_robot_trainer.py", line 187, in main
+    train_metrics = agent.update(model, batch, data_transform, optimizer)
+  File "online_robot_trainer.py", line 114, in update
+    states = states.to(device)
+AttributeError: 'numpy.ndarray' object has no attribute 'to'
+/usr/lib/python3/dist-packages/apport/report.py:13: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import fnmatch, glob, traceback, errno, sys, atexit, imp, stat
+Traceback (most recent call last):
+  File "online_robot_trainer.py", line 208, in <module>
+    main()
+  File "online_robot_trainer.py", line 187, in main
+    train_metrics = agent.update(model, batch, data_transform, optimizer)
+  File "online_robot_trainer.py", line 114, in update
+    states = states.to(device)
+AttributeError: 'numpy.ndarray' object has no attribute 'to'
+Iteration 7/1000000
+Iteration 8/1000000
+Iteration 9/1000000
+Iteration 10/1000000

@@ -1,0 +1,84 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.12.11
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.8.10
+    start_time: 1655517495
+    t:
+      1:
+      - 1
+      - 41
+      2:
+      - 1
+      - 41
+      3:
+      - 16
+      4: 3.8.10
+      5: 0.12.11
+      8:
+      - 5
+augment_data:
+  desc: null
+  value: true
+balanced_loader:
+  desc: null
+  value: true
+batch_size:
+  desc: null
+  value: 32
+eval_interval:
+  desc: null
+  value: 1
+fine_tune:
+  desc: null
+  value: false
+fourier_scale:
+  desc: null
+  value: 10.0
+gamma:
+  desc: null
+  value: 0.99
+grad_clip:
+  desc: null
+  value: null
+high_cost_prob:
+  desc: null
+  value: null
+just_eval:
+  desc: null
+  value: false
+log_dir:
+  desc: null
+  value: train_CostFourierVelModelSmall_lr_3e-4_g_99e-1_bal_aug_l2_scale_10.0
+lr:
+  desc: null
+  value: 0.0003
+model_name:
+  desc: null
+  value: CostFourierVelModelSmall
+num_epochs:
+  desc: null
+  value: 5
+pretrained:
+  desc: null
+  value: false
+saved_freqs:
+  desc: null
+  value: null
+saved_model:
+  desc: null
+  value: null
+seq_length:
+  desc: null
+  value: 1
+wanda:
+  desc: null
+  value: false
+weight_decay:
+  desc: null
+  value: 1.0e-07

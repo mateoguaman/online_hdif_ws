@@ -1,0 +1,61 @@
+2023-08-08 23:23:55,671 INFO    MainThread:527581 [internal.py:wandb_internal():90] W&B internal server running at pid: 527581, started at: 2023-08-08 23:23:55.671181
+2023-08-08 23:23:55,675 DEBUG   SenderThread:527581 [sender.py:send():236] send: header
+2023-08-08 23:23:55,675 INFO    WriterThread:527581 [datastore.py:open_for_write():75] open: /home/mateo/local_phoenix_ws/src/robot_dataset/scripts/wandb/run-20230808_232354-36hliyln/run-36hliyln.wandb
+2023-08-08 23:23:55,675 DEBUG   SenderThread:527581 [sender.py:send():236] send: run
+2023-08-08 23:23:55,890 DEBUG   HandlerThread:527581 [handler.py:handle_request():140] handle_request: check_version
+2023-08-08 23:23:55,892 INFO    SenderThread:527581 [dir_watcher.py:__init__():216] watching files in: /home/mateo/local_phoenix_ws/src/robot_dataset/scripts/wandb/run-20230808_232354-36hliyln/files
+2023-08-08 23:23:55,892 INFO    SenderThread:527581 [sender.py:_start_run_threads():815] run started: 36hliyln with start time 1691551435
+2023-08-08 23:23:55,892 DEBUG   SenderThread:527581 [sender.py:send():236] send: summary
+2023-08-08 23:23:55,892 INFO    SenderThread:527581 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-08-08 23:23:55,892 DEBUG   SenderThread:527581 [sender.py:send_request():250] send_request: check_version
+2023-08-08 23:23:55,986 DEBUG   HandlerThread:527581 [handler.py:handle_request():140] handle_request: run_start
+2023-08-08 23:23:55,999 DEBUG   HandlerThread:527581 [meta.py:__init__():35] meta init
+2023-08-08 23:23:55,999 DEBUG   HandlerThread:527581 [meta.py:__init__():49] meta init done
+2023-08-08 23:23:55,999 DEBUG   HandlerThread:527581 [meta.py:probe():209] probe
+2023-08-08 23:23:56,006 DEBUG   HandlerThread:527581 [git.py:repo():29] git repository is invalid
+2023-08-08 23:23:56,006 DEBUG   HandlerThread:527581 [meta.py:_save_pip():53] save pip
+2023-08-08 23:23:56,007 DEBUG   HandlerThread:527581 [meta.py:_save_pip():67] save pip done
+2023-08-08 23:23:56,007 DEBUG   HandlerThread:527581 [meta.py:probe():247] probe done
+2023-08-08 23:23:56,097 DEBUG   SenderThread:527581 [sender.py:send():236] send: files
+2023-08-08 23:23:56,098 INFO    SenderThread:527581 [sender.py:_save_file():952] saving file wandb-metadata.json with policy now
+2023-08-08 23:23:56,102 DEBUG   HandlerThread:527581 [handler.py:handle_request():140] handle_request: stop_status
+2023-08-08 23:23:56,102 DEBUG   SenderThread:527581 [sender.py:send_request():250] send_request: stop_status
+2023-08-08 23:23:56,334 DEBUG   SenderThread:527581 [sender.py:send():236] send: telemetry
+2023-08-08 23:23:56,439 INFO    Thread-11 :527581 [upload_job.py:push():138] Uploaded file /tmp/tmpftjrj3nswandb/sl0tqsel-wandb-metadata.json
+2023-08-08 23:23:56,893 INFO    Thread-7  :527581 [dir_watcher.py:_on_file_created():269] file/dir created: /home/mateo/local_phoenix_ws/src/robot_dataset/scripts/wandb/run-20230808_232354-36hliyln/files/output.log
+2023-08-08 23:23:56,894 INFO    Thread-7  :527581 [dir_watcher.py:_on_file_created():269] file/dir created: /home/mateo/local_phoenix_ws/src/robot_dataset/scripts/wandb/run-20230808_232354-36hliyln/files/requirements.txt
+2023-08-08 23:23:56,894 INFO    Thread-7  :527581 [dir_watcher.py:_on_file_created():269] file/dir created: /home/mateo/local_phoenix_ws/src/robot_dataset/scripts/wandb/run-20230808_232354-36hliyln/files/wandb-summary.json
+2023-08-08 23:23:56,894 INFO    Thread-7  :527581 [dir_watcher.py:_on_file_created():269] file/dir created: /home/mateo/local_phoenix_ws/src/robot_dataset/scripts/wandb/run-20230808_232354-36hliyln/files/wandb-metadata.json
+2023-08-08 23:23:58,893 INFO    Thread-7  :527581 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/mateo/local_phoenix_ws/src/robot_dataset/scripts/wandb/run-20230808_232354-36hliyln/files/output.log
+2023-08-08 23:24:00,894 INFO    Thread-7  :527581 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/mateo/local_phoenix_ws/src/robot_dataset/scripts/wandb/run-20230808_232354-36hliyln/files/output.log
+2023-08-08 23:24:02,894 INFO    Thread-7  :527581 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/mateo/local_phoenix_ws/src/robot_dataset/scripts/wandb/run-20230808_232354-36hliyln/files/output.log
+2023-08-08 23:24:04,895 INFO    Thread-7  :527581 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/mateo/local_phoenix_ws/src/robot_dataset/scripts/wandb/run-20230808_232354-36hliyln/files/output.log
+2023-08-08 23:24:06,896 INFO    Thread-7  :527581 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/mateo/local_phoenix_ws/src/robot_dataset/scripts/wandb/run-20230808_232354-36hliyln/files/output.log
+2023-08-08 23:24:08,896 INFO    Thread-7  :527581 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/mateo/local_phoenix_ws/src/robot_dataset/scripts/wandb/run-20230808_232354-36hliyln/files/output.log
+2023-08-08 23:24:10,897 INFO    Thread-7  :527581 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/mateo/local_phoenix_ws/src/robot_dataset/scripts/wandb/run-20230808_232354-36hliyln/files/output.log
+2023-08-08 23:24:11,335 DEBUG   HandlerThread:527581 [handler.py:handle_request():140] handle_request: stop_status
+2023-08-08 23:24:11,335 DEBUG   SenderThread:527581 [sender.py:send_request():250] send_request: stop_status
+2023-08-08 23:24:12,898 INFO    Thread-7  :527581 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/mateo/local_phoenix_ws/src/robot_dataset/scripts/wandb/run-20230808_232354-36hliyln/files/output.log
+2023-08-08 23:24:14,898 INFO    Thread-7  :527581 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/mateo/local_phoenix_ws/src/robot_dataset/scripts/wandb/run-20230808_232354-36hliyln/files/output.log
+2023-08-08 23:24:16,899 INFO    Thread-7  :527581 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/mateo/local_phoenix_ws/src/robot_dataset/scripts/wandb/run-20230808_232354-36hliyln/files/output.log
+2023-08-08 23:24:18,900 INFO    Thread-7  :527581 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/mateo/local_phoenix_ws/src/robot_dataset/scripts/wandb/run-20230808_232354-36hliyln/files/output.log
+2023-08-08 23:24:20,901 INFO    Thread-7  :527581 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/mateo/local_phoenix_ws/src/robot_dataset/scripts/wandb/run-20230808_232354-36hliyln/files/output.log
+2023-08-08 23:24:22,902 INFO    Thread-7  :527581 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/mateo/local_phoenix_ws/src/robot_dataset/scripts/wandb/run-20230808_232354-36hliyln/files/output.log
+2023-08-08 23:24:24,425 DEBUG   SenderThread:527581 [sender.py:send():236] send: stats
+2023-08-08 23:24:24,902 INFO    Thread-7  :527581 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/mateo/local_phoenix_ws/src/robot_dataset/scripts/wandb/run-20230808_232354-36hliyln/files/output.log
+2023-08-08 23:24:26,562 DEBUG   HandlerThread:527581 [handler.py:handle_request():140] handle_request: stop_status
+2023-08-08 23:24:26,562 DEBUG   SenderThread:527581 [sender.py:send_request():250] send_request: stop_status
+2023-08-08 23:24:26,903 INFO    Thread-7  :527581 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/mateo/local_phoenix_ws/src/robot_dataset/scripts/wandb/run-20230808_232354-36hliyln/files/output.log
+2023-08-08 23:24:26,903 INFO    Thread-7  :527581 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/mateo/local_phoenix_ws/src/robot_dataset/scripts/wandb/run-20230808_232354-36hliyln/files/config.yaml
+2023-08-08 23:24:28,903 INFO    Thread-7  :527581 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/mateo/local_phoenix_ws/src/robot_dataset/scripts/wandb/run-20230808_232354-36hliyln/files/output.log
+2023-08-08 23:24:30,904 INFO    Thread-7  :527581 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/mateo/local_phoenix_ws/src/robot_dataset/scripts/wandb/run-20230808_232354-36hliyln/files/output.log
+2023-08-08 23:24:32,905 INFO    Thread-7  :527581 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/mateo/local_phoenix_ws/src/robot_dataset/scripts/wandb/run-20230808_232354-36hliyln/files/output.log
+2023-08-08 23:24:34,906 INFO    Thread-7  :527581 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/mateo/local_phoenix_ws/src/robot_dataset/scripts/wandb/run-20230808_232354-36hliyln/files/output.log
+2023-08-08 23:24:36,907 INFO    Thread-7  :527581 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/mateo/local_phoenix_ws/src/robot_dataset/scripts/wandb/run-20230808_232354-36hliyln/files/output.log
+2023-08-08 23:24:37,309 WARNING MainThread:527581 [internal.py:wandb_internal():153] Internal process interrupt: 1
+2023-08-08 23:24:37,510 WARNING MainThread:527581 [internal.py:wandb_internal():153] Internal process interrupt: 2
+2023-08-08 23:24:37,510 ERROR   MainThread:527581 [internal.py:wandb_internal():156] Internal process interrupted.
+2023-08-08 23:24:37,793 INFO    SenderThread:527581 [sender.py:finish():1114] shutting down sender
+2023-08-08 23:24:37,793 INFO    SenderThread:527581 [dir_watcher.py:finish():353] shutting down directory watcher
+2023-08-08 23:24:37,794 INFO    HandlerThread:527581 [handler.py:finish():806] shutting down handler
+2023-08-08 23:24:37,851 INFO    MainThread:527581 [internal.py:handle_exit():80] Internal process exited

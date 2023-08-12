@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+
+<launch>
+
+    <arg name="leaf_size" default="0.05" />
+
+    <node name="voxel_grid"
+        pkg="nodelet" type="nodelet"
+        args="standalone pcl/VoxelGrid">
+    <remap from="~input" to="/multisense/image_points2_color" />
+    <rosparam subst_value="true">
+      filter_field_name: ''
+      leaf_size: $(arg leaf_size)
+    </rosparam>
+    </node>
+
+    <node name="statistical_outlier_removal"
+        pkg="nodelet" type="nodelet"
+        args="standalone pcl/StatisticalOutlierRemoval">
+        <remap from="~input" to="voxel_grid/output" />
+        <rosparam>
+            mean_k: 10
+            stddev: 2.0
+        </rosparam>
+    </node>
+
+    <node pkg="physics_atv_local_mapping" type="LocalMapping.py" name="localmapping_node" output="screen" > 
+        <param name ="/pc_transform_ground" value="true"/>
+        <param name ="/min_x" value="0.0"/>
+        <param name ="/max_x" value="10.0"/>
+        <param name ="/min_y" value="-5.0"/>
+        <param name ="/max_y" value="5.0"/>
+        <param name ="/resolution" value="0.1"/>
+        <param name ="/visualize_maps" value="True"/>
+    </node> 
+  
+
+</launch>

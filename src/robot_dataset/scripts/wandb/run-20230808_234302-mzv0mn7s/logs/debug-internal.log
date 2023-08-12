@@ -1,0 +1,49 @@
+2023-08-08 23:43:02,902 INFO    MainThread:539400 [internal.py:wandb_internal():90] W&B internal server running at pid: 539400, started at: 2023-08-08 23:43:02.902587
+2023-08-08 23:43:02,904 INFO    WriterThread:539400 [datastore.py:open_for_write():75] open: /home/mateo/local_phoenix_ws/src/robot_dataset/scripts/wandb/run-20230808_234302-mzv0mn7s/run-mzv0mn7s.wandb
+2023-08-08 23:43:02,906 DEBUG   SenderThread:539400 [sender.py:send():236] send: header
+2023-08-08 23:43:02,906 DEBUG   SenderThread:539400 [sender.py:send():236] send: run
+2023-08-08 23:43:03,128 DEBUG   HandlerThread:539400 [handler.py:handle_request():140] handle_request: check_version
+2023-08-08 23:43:03,132 INFO    SenderThread:539400 [dir_watcher.py:__init__():216] watching files in: /home/mateo/local_phoenix_ws/src/robot_dataset/scripts/wandb/run-20230808_234302-mzv0mn7s/files
+2023-08-08 23:43:03,132 INFO    SenderThread:539400 [sender.py:_start_run_threads():815] run started: mzv0mn7s with start time 1691552582
+2023-08-08 23:43:03,132 DEBUG   SenderThread:539400 [sender.py:send():236] send: summary
+2023-08-08 23:43:03,132 INFO    SenderThread:539400 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-08-08 23:43:03,133 DEBUG   SenderThread:539400 [sender.py:send_request():250] send_request: check_version
+2023-08-08 23:43:03,223 DEBUG   HandlerThread:539400 [handler.py:handle_request():140] handle_request: run_start
+2023-08-08 23:43:03,238 DEBUG   HandlerThread:539400 [meta.py:__init__():35] meta init
+2023-08-08 23:43:03,238 DEBUG   HandlerThread:539400 [meta.py:__init__():49] meta init done
+2023-08-08 23:43:03,238 DEBUG   HandlerThread:539400 [meta.py:probe():209] probe
+2023-08-08 23:43:03,243 DEBUG   HandlerThread:539400 [git.py:repo():29] git repository is invalid
+2023-08-08 23:43:03,243 DEBUG   HandlerThread:539400 [meta.py:_save_pip():53] save pip
+2023-08-08 23:43:03,244 DEBUG   HandlerThread:539400 [meta.py:_save_pip():67] save pip done
+2023-08-08 23:43:03,244 DEBUG   HandlerThread:539400 [meta.py:probe():247] probe done
+2023-08-08 23:43:03,308 DEBUG   SenderThread:539400 [sender.py:send():236] send: files
+2023-08-08 23:43:03,308 INFO    SenderThread:539400 [sender.py:_save_file():952] saving file wandb-metadata.json with policy now
+2023-08-08 23:43:03,313 DEBUG   HandlerThread:539400 [handler.py:handle_request():140] handle_request: stop_status
+2023-08-08 23:43:03,313 DEBUG   SenderThread:539400 [sender.py:send_request():250] send_request: stop_status
+2023-08-08 23:43:03,515 DEBUG   SenderThread:539400 [sender.py:send():236] send: telemetry
+2023-08-08 23:43:03,692 INFO    Thread-11 :539400 [upload_job.py:push():138] Uploaded file /tmp/tmpljan0c8fwandb/2hg0z2i0-wandb-metadata.json
+2023-08-08 23:43:04,134 INFO    Thread-7  :539400 [dir_watcher.py:_on_file_created():269] file/dir created: /home/mateo/local_phoenix_ws/src/robot_dataset/scripts/wandb/run-20230808_234302-mzv0mn7s/files/wandb-metadata.json
+2023-08-08 23:43:04,134 INFO    Thread-7  :539400 [dir_watcher.py:_on_file_created():269] file/dir created: /home/mateo/local_phoenix_ws/src/robot_dataset/scripts/wandb/run-20230808_234302-mzv0mn7s/files/requirements.txt
+2023-08-08 23:43:04,135 INFO    Thread-7  :539400 [dir_watcher.py:_on_file_created():269] file/dir created: /home/mateo/local_phoenix_ws/src/robot_dataset/scripts/wandb/run-20230808_234302-mzv0mn7s/files/wandb-summary.json
+2023-08-08 23:43:04,135 INFO    Thread-7  :539400 [dir_watcher.py:_on_file_created():269] file/dir created: /home/mateo/local_phoenix_ws/src/robot_dataset/scripts/wandb/run-20230808_234302-mzv0mn7s/files/output.log
+2023-08-08 23:43:06,133 INFO    Thread-7  :539400 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/mateo/local_phoenix_ws/src/robot_dataset/scripts/wandb/run-20230808_234302-mzv0mn7s/files/output.log
+2023-08-08 23:43:14,164 WARNING MainThread:539400 [internal.py:wandb_internal():153] Internal process interrupt: 1
+2023-08-08 23:43:14,361 WARNING MainThread:539400 [internal.py:wandb_internal():153] Internal process interrupt: 2
+2023-08-08 23:43:14,361 ERROR   MainThread:539400 [internal.py:wandb_internal():156] Internal process interrupted.
+2023-08-08 23:43:14,517 INFO    SenderThread:539400 [sender.py:finish():1114] shutting down sender
+2023-08-08 23:43:14,517 INFO    SenderThread:539400 [dir_watcher.py:finish():353] shutting down directory watcher
+2023-08-08 23:43:14,518 INFO    HandlerThread:539400 [handler.py:finish():806] shutting down handler
+2023-08-08 23:43:15,134 INFO    SenderThread:539400 [dir_watcher.py:finish():383] scan: /home/mateo/local_phoenix_ws/src/robot_dataset/scripts/wandb/run-20230808_234302-mzv0mn7s/files
+2023-08-08 23:43:15,135 INFO    SenderThread:539400 [dir_watcher.py:finish():397] scan save: /home/mateo/local_phoenix_ws/src/robot_dataset/scripts/wandb/run-20230808_234302-mzv0mn7s/files/output.log output.log
+2023-08-08 23:43:15,135 INFO    SenderThread:539400 [dir_watcher.py:finish():397] scan save: /home/mateo/local_phoenix_ws/src/robot_dataset/scripts/wandb/run-20230808_234302-mzv0mn7s/files/config.yaml config.yaml
+2023-08-08 23:43:15,135 INFO    SenderThread:539400 [dir_watcher.py:finish():397] scan save: /home/mateo/local_phoenix_ws/src/robot_dataset/scripts/wandb/run-20230808_234302-mzv0mn7s/files/wandb-metadata.json wandb-metadata.json
+2023-08-08 23:43:15,135 INFO    SenderThread:539400 [dir_watcher.py:finish():397] scan save: /home/mateo/local_phoenix_ws/src/robot_dataset/scripts/wandb/run-20230808_234302-mzv0mn7s/files/requirements.txt requirements.txt
+2023-08-08 23:43:15,135 INFO    SenderThread:539400 [dir_watcher.py:finish():397] scan save: /home/mateo/local_phoenix_ws/src/robot_dataset/scripts/wandb/run-20230808_234302-mzv0mn7s/files/wandb-summary.json wandb-summary.json
+2023-08-08 23:43:15,138 INFO    SenderThread:539400 [file_pusher.py:finish():171] shutting down file pusher
+2023-08-08 23:43:15,142 INFO    SenderThread:539400 [file_pusher.py:join():176] waiting for file pusher
+2023-08-08 23:43:15,319 INFO    WriterThread:539400 [datastore.py:close():279] close: /home/mateo/local_phoenix_ws/src/robot_dataset/scripts/wandb/run-20230808_234302-mzv0mn7s/run-mzv0mn7s.wandb
+2023-08-08 23:43:15,461 INFO    Thread-14 :539400 [upload_job.py:push():138] Uploaded file /home/mateo/local_phoenix_ws/src/robot_dataset/scripts/wandb/run-20230808_234302-mzv0mn7s/files/requirements.txt
+2023-08-08 23:43:15,483 INFO    Thread-12 :539400 [upload_job.py:push():138] Uploaded file /home/mateo/local_phoenix_ws/src/robot_dataset/scripts/wandb/run-20230808_234302-mzv0mn7s/files/output.log
+2023-08-08 23:43:15,574 INFO    Thread-15 :539400 [upload_job.py:push():138] Uploaded file /home/mateo/local_phoenix_ws/src/robot_dataset/scripts/wandb/run-20230808_234302-mzv0mn7s/files/wandb-summary.json
+2023-08-08 23:43:15,588 INFO    Thread-13 :539400 [upload_job.py:push():138] Uploaded file /home/mateo/local_phoenix_ws/src/robot_dataset/scripts/wandb/run-20230808_234302-mzv0mn7s/files/config.yaml
+2023-08-08 23:43:16,288 INFO    MainThread:539400 [internal.py:handle_exit():80] Internal process exited

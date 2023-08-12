@@ -1,0 +1,53 @@
+waiting 2s for topics...
+Iteration 1/1000000
+Iteration 2/1000000
+Iteration 3/1000000
+Iteration 4/1000000
+Iteration 5/1000000
+Iteration 6/1000000
+Iteration 7/1000000
+Iteration 8/1000000
+Iteration 9/1000000
+Iteration 10/1000000
+Traceback (most recent call last):
+  File "online_robot_trainer.py", line 206, in <module>
+    main()
+  File "online_robot_trainer.py", line 185, in main
+    train_metrics = agent.update(model, batch, data_transform, optimizer)
+  File "online_robot_trainer.py", line 111, in update
+    states, actions, ground_truth = data_transform(batch)
+  File "online_robot_trainer.py", line 89, in transform
+    trans_imgs = resnet_transform(imgs)
+  File "/home/mateo/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1190, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/mateo/.local/lib/python3.8/site-packages/torchvision/transforms/_presets.py", line 56, in forward
+    img = F.resize(img, self.resize_size, interpolation=self.interpolation)
+  File "/home/mateo/.local/lib/python3.8/site-packages/torchvision/transforms/functional.py", line 462, in resize
+    _, image_height, image_width = get_dimensions(img)
+  File "/home/mateo/.local/lib/python3.8/site-packages/torchvision/transforms/functional.py", line 75, in get_dimensions
+    return F_pil.get_dimensions(img)
+  File "/home/mateo/.local/lib/python3.8/site-packages/torchvision/transforms/functional_pil.py", line 33, in get_dimensions
+    raise TypeError(f"Unexpected type {type(img)}")
+TypeError: Unexpected type <class 'numpy.ndarray'>
+/usr/lib/python3/dist-packages/apport/report.py:13: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import fnmatch, glob, traceback, errno, sys, atexit, imp, stat
+Traceback (most recent call last):
+  File "online_robot_trainer.py", line 206, in <module>
+    main()
+  File "online_robot_trainer.py", line 185, in main
+    train_metrics = agent.update(model, batch, data_transform, optimizer)
+  File "online_robot_trainer.py", line 111, in update
+    states, actions, ground_truth = data_transform(batch)
+  File "online_robot_trainer.py", line 89, in transform
+    trans_imgs = resnet_transform(imgs)
+  File "/home/mateo/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1190, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/mateo/.local/lib/python3.8/site-packages/torchvision/transforms/_presets.py", line 56, in forward
+    img = F.resize(img, self.resize_size, interpolation=self.interpolation)
+  File "/home/mateo/.local/lib/python3.8/site-packages/torchvision/transforms/functional.py", line 462, in resize
+    _, image_height, image_width = get_dimensions(img)
+  File "/home/mateo/.local/lib/python3.8/site-packages/torchvision/transforms/functional.py", line 75, in get_dimensions
+    return F_pil.get_dimensions(img)
+  File "/home/mateo/.local/lib/python3.8/site-packages/torchvision/transforms/functional_pil.py", line 33, in get_dimensions
+    raise TypeError(f"Unexpected type {type(img)}")
+TypeError: Unexpected type <class 'numpy.ndarray'>

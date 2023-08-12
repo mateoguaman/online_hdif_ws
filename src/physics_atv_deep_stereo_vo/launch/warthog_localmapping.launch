@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+
+<launch>
+    <arg name="robot" default="wanda"/>
+    <node pkg="physics_atv_deep_stereo_vo" type="stereo_node_multisense.py" name="stereo_node_multisense" output="screen" > 
+        <param name ="/pc_transform_ground" value="false"/>
+        <param name ="/pc_max_dist" value="20.0"/>
+        <param name ="/pc_min_dist" value="1.0"/>
+        <param name ="/pc_max_height" value="2.0"/>
+        <param name ="/image_rect" value="true"/>
+	<param name ="/color_image_topic" value="/$(arg robot)/stereo_left/image_rect_color/compressed"/>
+        <param name ="/left_image_topic" value="/$(arg robot)/stereo_left/image_rect_color/compressed"/>
+        <param name ="/right_image_topic" value="/$(arg robot)/stereo_right/image_rect_color/compressed"/>
+        <param name ="/visualize_depth" value="true"/>
+        <param name ="/image_input_w" value="512"/>
+        <param name ="/image_input_h" value="256"/>
+
+        <param name ="/image_width" value="1440"/>
+        <param name ="/image_height" value="1080"/>
+        <!-- <param name ="/focal_x" value="1116.806778640668199"/>
+        <param name ="/focal_y" value="1116.806778640668199"/>
+        <param name ="/center_x" value="715.7025833129882812"/>
+        <param name ="/center_y" value="562.9476242065429688"/>
+        <param name ="/focal_x_baseline" value="697.5595528820824711"/> -->
+        <param name ="/focal_x" value="1125.43"/>
+        <param name ="/focal_y" value="1125.43"/>
+        <param name ="/center_x" value="770.717"/>
+        <param name ="/center_y" value="540.52"/>
+        <param name ="/focal_x_baseline" value="713.741"/>
+        <param name ="/image_crop_w" value="0"/>
+        <param name ="/image_crop_h_low" value="360"/>
+        <param name ="/image_crop_h_high" value="0"/>
+        <param name ="/mask_file" value="dummy_mask.npy"/>
+        <param name ="/image_compressed" value="true"/>
+        <param name ="/stereo_maps" value=""/>
+        <param name ="/approximate_sync" value="true"/>
+
+        <param name ="/model_name" value="6_3_2_stereo_60000.pkl"/>
+        <param name ="/network_type" value="1"/>
+    </node>
+
+    <node pkg="physics_atv_deep_stereo_vo" type="tartanvo_node.py" name="tartanvo_node" output="screen" > 
+	    <param name ="/left_image_topic" value="/$(arg robot)/stereo_left/image_rect_color/compressed"/>
+        <param name ="/right_image_topic" value="/$(arg robot)/stereo_right/image_rect_color/compressed"/>
+        <param name ="/image_width" value="1440"/>
+        <param name ="/image_height" value="1080"/>
+        <param name ="/focal_x" value="1125.43"/>
+        <param name ="/focal_y" value="1125.43"/>
+        <param name ="/center_x" value="770.717"/>
+        <param name ="/center_y" value="540.52"/>
+        <param name ="/resize_w" value="640"/>
+        <param name ="/resize_h" value="480"/>
+        <param name ="/focal_x_baseline" value="713.741"/>
+        <param name ="/image_compressed" value="true"/>
+        <param name ="/stereo_maps" value="warty_maps_noprior.npy"/>
+        <param name ="/approximate_sync" value="true"/>
+    </node> 
+
+    <node pkg="physics_atv_local_mapping" type="local_mapping_node" name="localmapping_node" output="screen" > 
+        <param name ="/filter_outliers" value="false"/>
+        <param name ="/downsample_pointcloud_before" value="false"/>
+        <param name ="/downsample_leafsize_before" value="0.05"/>
+        <param name ="/downsample_pointcloud_after" value="true"/>
+        <param name ="/downsample_leafsize_after" value="0.02"/>
+        <param name ="/resolution" value="0.05"/>
+        <param name ="/max_x" value="10"/>
+        <param name ="/min_x" value="0"/>
+        <param name ="/max_y" value="5"/>
+        <param name ="/min_y" value="-5"/>
+        <param name ="/visualize_maps" value="false"/>
+        <param name ="/publish_pc_for_debug" value="true"/>
+        <param name ="/platform" value="warthog"/>
+
+    </node> 
+
+    <node pkg="tf2_ros" type="static_transform_publisher" name="ghost_publisher" args="0.01869175488738828 -0.25 0.28672623687109766 0.04223758430352057 -0.005559586035104695 3.1415 wanda/sensor_plate_link wanda/stereo_center_ned_link" />  
+</launch>
+
+
+<!-- D: [-0.4290657469297874, 0.2030995180174779, 0.0001660665142662159, -0.0008106477925012577, 0.0]
+K: [1240.191168170345, 0.0, 743.5681309589972, 0.0, 1236.292569433246, 553.6946950535794, 0.0, 0.0, 1.0]
+R: [1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]
+P: [1043.310546875, 0.0, 749.605152438744, 0.0, 0.0, 1126.415161132812, 556.12697378944, 0.0, 0.0, 0.0, 1.0, 0.0]
+
+D: [-0.4259988054193053, 0.195147125646495, 0.0007164466972406406, 0.0006248682394717709, 0.0]
+K: [1207.985065231321, 0.0, 730.8581112730539, 0.0, 1205.253473526928, 541.0029660678819, 0.0, 0.0, 1.0]
+R: [1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]
+P: [1005.68212890625, 0.0, 736.0949325135443, 0.0, 0.0, 1093.067749023438, 541.4843079236634, 0.0, 0.0, 0.0, 1.0, 0.0] -->

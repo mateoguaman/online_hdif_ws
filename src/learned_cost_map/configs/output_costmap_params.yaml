@@ -1,0 +1,2 @@
+batch_size: 1024
+stride: 15

@@ -1,0 +1,15 @@
+crop_params:
+  crop_size:
+  - 4.0
+  - 4.0
+  output_size:
+  - 224
+  - 224
+map_metadata:
+  height: 20.0
+  origin:
+  - -10.0
+  - -10.0
+  resolution: 0.05
+  width: 20.0
+  

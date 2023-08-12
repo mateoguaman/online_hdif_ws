@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+
+<launch>
+    <node pkg="physics_atv_deep_stereo_vo" type="stereo_node_multisense.py" name="stereo_node_multisense" output="screen" > 
+        <param name ="/pc_transform_ground" value="false"/>
+        <param name ="/pc_max_dist" value="12.0"/>
+        <param name ="/pc_min_dist" value="1"/>
+        <param name ="/pc_max_height" value="2.0"/>
+        <param name ="/image_rect" value="true"/>
+        <param name ="/color_image_topic" value="/multisense/left/image_rect_color"/>
+        <param name ="/visualize_depth" value="false"/>
+        <param name ="/image_input_w" value="512"/>
+        <param name ="/image_input_h" value="256"/>
+        <param name ="/image_compressed" value="false"/>
+
+    </node>
+
+
+    <node pkg="physics_atv_local_mapping" type="local_projection_node" name="localprojection_node" output="screen" > <!-- launch-prefix="xterm -e gdb -args"  -->
+        <param name ="/resolution" value="0.02"/>
+        <param name ="/max_x" value="10"/>
+        <param name ="/min_x" value="0"/>
+        <param name ="/max_y" value="5"/>
+        <param name ="/min_y" value="-5"/>
+        <param name ="/visualize_maps" value="false"/>
+        <param name ="/publish_pc_for_debug" value="true"/>
+
+    </node> 
+
+</launch>

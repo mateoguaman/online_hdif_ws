@@ -1,0 +1,24 @@
+{
+    "os": "Linux-5.15.0-72-generic-x86_64-with-glibc2.29",
+    "python": "3.8.10",
+    "heartbeatAt": "2023-06-27T19:41:40.089731",
+    "startedAt": "2023-06-27T19:41:38.812539",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 3080 Ti",
+    "gpu_count": 1,
+    "cpu_count": 24,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "online_robot_trainer.py",
+    "codePath": "scripts/online_robot_trainer.py",
+    "git": {
+        "remote": "git@github.com:mateoguaman/robot_dataset",
+        "commit": "de02346a8309eaaa4f0555e7e1e5524eb046d990"
+    },
+    "email": "mguamanc@andrew.cmu.edu",
+    "root": "/home/mateo/robot_dataset",
+    "host": "mateo",
+    "username": "mateo",
+    "executable": "/usr/bin/python"
+}

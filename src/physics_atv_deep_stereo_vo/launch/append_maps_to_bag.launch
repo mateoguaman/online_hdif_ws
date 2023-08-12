@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+
+<launch>
+
+    <param name="/use_sim_time" value="true"/>
+
+    <arg name="input_bag_directory" value="/home/mateo/Data/SARA/TartanCostPrototype/Trajectories/000010/bag_file/trajectory.bag"/>
+    <arg name="output_bag_directory" value="/home/mateo/Data/SARA/TartanCostPrototype/Trajectories/000010/bag_file"/>
+
+    <node pkg="rviz" type="rviz" name="rviz" 
+        args="-d /home/mateo/Data/SARA/TartanCostPrototype/tartanvo.rviz"/>
+
+    <node pkg="rosbag" type="play" name="bag_play"
+        args="$(arg input_bag_directory) -r 0.3 --topics /multisense/left/image_rect /multisense/left/image_rect_color /multisense/right/image_rect --clock"/>
+
+    <node pkg="physics_atv_deep_stereo_vo" type="dummy_node.py" name="dummy_publisher" output="screen" />
+
+    <node pkg="rosbag" type="record" name="bag_record"
+        args="record -a -O /home/mateo/Data/SARA/TartanCostPrototype/Trajectories/000010/bag_file/trajectory2"/>
+
+</launch>
+

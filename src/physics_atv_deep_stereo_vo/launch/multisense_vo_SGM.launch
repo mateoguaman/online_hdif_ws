@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<launch>
+
+	<node pkg="physics_atv_deep_stereo_vo" type="tartanvo_node.py" name="tartanvo_node" output="screen" > 
+
+	</node>
+
+	<node pkg="tf" type="static_transform_publisher" name="atv_multisense" args="0.0 0.0 1.77348523 0.99220717 0.00153886 -0.12397937  0.01231552 map multisense_init 100" />
+
+  
+	<node pkg="tf" type="static_transform_publisher" name="multisense_optical" args="0.0 0.0 0.0 0.5 0.5 0.5 0.5 multisense multisense/left_camera_optical_frame 100" />
+
+
+
+</launch>

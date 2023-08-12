@@ -1,0 +1,1 @@
+{"train/loss": 0.0884079709649086, "train/random_loss": 0.22276222705841064, "train/lr": 0.0028817879501730204, "train/epoch": 4, "_timestamp": 1663266268, "_runtime": 772, "validation/loss": 0.08435147255659103, "validation/random_loss": 0.2265598177909851, "validation/epoch": 4, "_step": 4, "_wandb": {"runtime": 774}}

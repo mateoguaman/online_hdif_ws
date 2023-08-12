@@ -1,0 +1,4 @@
+pip3 install numpy protobuf==3.16.0
+pip3 install onnx==1.8.1
+pip3 install onnx-simplifier
+python3 -m onnxsim 5_5_4_stereo_30000.onnx 5_5_4_stereo_30000_sim.onnx

@@ -1,0 +1,24 @@
+Traceback (most recent call last):
+  File "online_hdif.py", line 160, in <module>
+    main()
+  File "online_hdif.py", line 130, in main
+    robot_data = robot_listener.get_data()
+  File "/home/mateo/local_phoenix_ws/src/robot_dataset/src/robot_dataset/online_converter/robot_listener.py", line 171, in get_data
+    out['observations'][self.output_names[topic]] = converter.ros_to_numpy(self.queue[topic][0])
+  File "/home/mateo/local_phoenix_ws/src/robot_dataset/src/robot_dataset/dtypes/image.py", line 45, in ros_to_numpy
+    is_rgb = ('8' in msg.encoding)
+AttributeError: 'NoneType' object has no attribute 'encoding'
+/usr/lib/python3/dist-packages/apport/report.py:13: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import fnmatch, glob, traceback, errno, sys, atexit, imp, stat
+Traceback (most recent call last):
+  File "online_hdif.py", line 160, in <module>
+    main()
+  File "online_hdif.py", line 130, in main
+    robot_data = robot_listener.get_data()
+  File "/home/mateo/local_phoenix_ws/src/robot_dataset/src/robot_dataset/online_converter/robot_listener.py", line 171, in get_data
+    out['observations'][self.output_names[topic]] = converter.ros_to_numpy(self.queue[topic][0])
+  File "/home/mateo/local_phoenix_ws/src/robot_dataset/src/robot_dataset/dtypes/image.py", line 45, in ros_to_numpy
+    is_rgb = ('8' in msg.encoding)
+AttributeError: 'NoneType' object has no attribute 'encoding'
+waiting 2s for topics...
+Iteration 1/1000000

@@ -1,0 +1,105 @@
+2023-08-08 23:22:54,693 INFO    MainThread:526303 [internal.py:wandb_internal():90] W&B internal server running at pid: 526303, started at: 2023-08-08 23:22:54.693465
+2023-08-08 23:22:54,695 INFO    WriterThread:526303 [datastore.py:open_for_write():75] open: /home/mateo/local_phoenix_ws/src/robot_dataset/scripts/wandb/run-20230808_232254-v369x7e4/run-v369x7e4.wandb
+2023-08-08 23:22:54,697 DEBUG   SenderThread:526303 [sender.py:send():236] send: header
+2023-08-08 23:22:54,697 DEBUG   SenderThread:526303 [sender.py:send():236] send: run
+2023-08-08 23:22:54,946 DEBUG   HandlerThread:526303 [handler.py:handle_request():140] handle_request: check_version
+2023-08-08 23:22:54,972 INFO    SenderThread:526303 [dir_watcher.py:__init__():216] watching files in: /home/mateo/local_phoenix_ws/src/robot_dataset/scripts/wandb/run-20230808_232254-v369x7e4/files
+2023-08-08 23:22:54,973 INFO    SenderThread:526303 [sender.py:_start_run_threads():815] run started: v369x7e4 with start time 1691551374
+2023-08-08 23:22:54,973 DEBUG   SenderThread:526303 [sender.py:send():236] send: summary
+2023-08-08 23:22:54,973 INFO    SenderThread:526303 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-08-08 23:22:54,973 DEBUG   SenderThread:526303 [sender.py:send_request():250] send_request: check_version
+2023-08-08 23:22:55,122 DEBUG   HandlerThread:526303 [handler.py:handle_request():140] handle_request: run_start
+2023-08-08 23:22:55,138 DEBUG   HandlerThread:526303 [meta.py:__init__():35] meta init
+2023-08-08 23:22:55,138 DEBUG   HandlerThread:526303 [meta.py:__init__():49] meta init done
+2023-08-08 23:22:55,138 DEBUG   HandlerThread:526303 [meta.py:probe():209] probe
+2023-08-08 23:22:55,144 DEBUG   HandlerThread:526303 [git.py:repo():29] git repository is invalid
+2023-08-08 23:22:55,144 DEBUG   HandlerThread:526303 [meta.py:_save_pip():53] save pip
+2023-08-08 23:22:55,144 DEBUG   HandlerThread:526303 [meta.py:_save_pip():67] save pip done
+2023-08-08 23:22:55,144 DEBUG   HandlerThread:526303 [meta.py:probe():247] probe done
+2023-08-08 23:22:55,222 DEBUG   SenderThread:526303 [sender.py:send():236] send: files
+2023-08-08 23:22:55,222 INFO    SenderThread:526303 [sender.py:_save_file():952] saving file wandb-metadata.json with policy now
+2023-08-08 23:22:55,227 DEBUG   HandlerThread:526303 [handler.py:handle_request():140] handle_request: stop_status
+2023-08-08 23:22:55,227 DEBUG   SenderThread:526303 [sender.py:send_request():250] send_request: stop_status
+2023-08-08 23:22:55,460 DEBUG   SenderThread:526303 [sender.py:send():236] send: telemetry
+2023-08-08 23:22:55,705 INFO    Thread-11 :526303 [upload_job.py:push():138] Uploaded file /tmp/tmpkuxdkghbwandb/7ibdlfk2-wandb-metadata.json
+2023-08-08 23:22:55,974 INFO    Thread-7  :526303 [dir_watcher.py:_on_file_created():269] file/dir created: /home/mateo/local_phoenix_ws/src/robot_dataset/scripts/wandb/run-20230808_232254-v369x7e4/files/wandb-metadata.json
+2023-08-08 23:22:55,974 INFO    Thread-7  :526303 [dir_watcher.py:_on_file_created():269] file/dir created: /home/mateo/local_phoenix_ws/src/robot_dataset/scripts/wandb/run-20230808_232254-v369x7e4/files/wandb-summary.json
+2023-08-08 23:22:55,974 INFO    Thread-7  :526303 [dir_watcher.py:_on_file_created():269] file/dir created: /home/mateo/local_phoenix_ws/src/robot_dataset/scripts/wandb/run-20230808_232254-v369x7e4/files/requirements.txt
+2023-08-08 23:22:55,975 INFO    Thread-7  :526303 [dir_watcher.py:_on_file_created():269] file/dir created: /home/mateo/local_phoenix_ws/src/robot_dataset/scripts/wandb/run-20230808_232254-v369x7e4/files/output.log
+2023-08-08 23:22:56,180 DEBUG   SenderThread:526303 [sender.py:send():236] send: telemetry
+2023-08-08 23:22:57,973 INFO    Thread-7  :526303 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/mateo/local_phoenix_ws/src/robot_dataset/scripts/wandb/run-20230808_232254-v369x7e4/files/output.log
+2023-08-08 23:22:58,239 DEBUG   HandlerThread:526303 [handler.py:handle_request():140] handle_request: poll_exit
+2023-08-08 23:22:58,239 DEBUG   SenderThread:526303 [sender.py:send():236] send: exit
+2023-08-08 23:22:58,239 INFO    SenderThread:526303 [sender.py:send_exit():372] handling exit code: 1
+2023-08-08 23:22:58,239 INFO    SenderThread:526303 [sender.py:send_exit():374] handling runtime: 3
+2023-08-08 23:22:58,239 INFO    SenderThread:526303 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-08-08 23:22:58,240 INFO    SenderThread:526303 [sender.py:send_exit():380] send defer
+2023-08-08 23:22:58,240 DEBUG   SenderThread:526303 [sender.py:send_request():250] send_request: poll_exit
+2023-08-08 23:22:58,240 DEBUG   HandlerThread:526303 [handler.py:handle_request():140] handle_request: defer
+2023-08-08 23:22:58,240 INFO    HandlerThread:526303 [handler.py:handle_request_defer():163] handle defer: 0
+2023-08-08 23:22:58,240 DEBUG   SenderThread:526303 [sender.py:send_request():250] send_request: defer
+2023-08-08 23:22:58,240 INFO    SenderThread:526303 [sender.py:send_request_defer():389] handle sender defer: 0
+2023-08-08 23:22:58,241 INFO    SenderThread:526303 [sender.py:transition_state():393] send defer: 1
+2023-08-08 23:22:58,241 DEBUG   HandlerThread:526303 [handler.py:handle_request():140] handle_request: defer
+2023-08-08 23:22:58,241 INFO    HandlerThread:526303 [handler.py:handle_request_defer():163] handle defer: 1
+2023-08-08 23:22:58,360 DEBUG   SenderThread:526303 [sender.py:send_request():250] send_request: defer
+2023-08-08 23:22:58,360 DEBUG   HandlerThread:526303 [handler.py:handle_request():140] handle_request: poll_exit
+2023-08-08 23:22:58,360 INFO    SenderThread:526303 [sender.py:send_request_defer():389] handle sender defer: 1
+2023-08-08 23:22:58,360 INFO    SenderThread:526303 [sender.py:transition_state():393] send defer: 2
+2023-08-08 23:22:58,361 DEBUG   SenderThread:526303 [sender.py:send_request():250] send_request: poll_exit
+2023-08-08 23:22:58,361 DEBUG   SenderThread:526303 [sender.py:send():236] send: stats
+2023-08-08 23:22:58,362 DEBUG   HandlerThread:526303 [handler.py:handle_request():140] handle_request: defer
+2023-08-08 23:22:58,362 INFO    HandlerThread:526303 [handler.py:handle_request_defer():163] handle defer: 2
+2023-08-08 23:22:58,362 DEBUG   SenderThread:526303 [sender.py:send_request():250] send_request: defer
+2023-08-08 23:22:58,362 INFO    SenderThread:526303 [sender.py:send_request_defer():389] handle sender defer: 2
+2023-08-08 23:22:58,362 INFO    SenderThread:526303 [sender.py:transition_state():393] send defer: 3
+2023-08-08 23:22:58,362 DEBUG   HandlerThread:526303 [handler.py:handle_request():140] handle_request: defer
+2023-08-08 23:22:58,362 INFO    HandlerThread:526303 [handler.py:handle_request_defer():163] handle defer: 3
+2023-08-08 23:22:58,362 DEBUG   SenderThread:526303 [sender.py:send_request():250] send_request: defer
+2023-08-08 23:22:58,362 INFO    SenderThread:526303 [sender.py:send_request_defer():389] handle sender defer: 3
+2023-08-08 23:22:58,362 INFO    SenderThread:526303 [sender.py:transition_state():393] send defer: 4
+2023-08-08 23:22:58,363 DEBUG   HandlerThread:526303 [handler.py:handle_request():140] handle_request: defer
+2023-08-08 23:22:58,363 INFO    HandlerThread:526303 [handler.py:handle_request_defer():163] handle defer: 4
+2023-08-08 23:22:58,363 DEBUG   SenderThread:526303 [sender.py:send():236] send: summary
+2023-08-08 23:22:58,363 INFO    SenderThread:526303 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-08-08 23:22:58,363 DEBUG   SenderThread:526303 [sender.py:send_request():250] send_request: defer
+2023-08-08 23:22:58,363 INFO    SenderThread:526303 [sender.py:send_request_defer():389] handle sender defer: 4
+2023-08-08 23:22:58,363 INFO    SenderThread:526303 [sender.py:transition_state():393] send defer: 5
+2023-08-08 23:22:58,363 DEBUG   HandlerThread:526303 [handler.py:handle_request():140] handle_request: defer
+2023-08-08 23:22:58,363 INFO    HandlerThread:526303 [handler.py:handle_request_defer():163] handle defer: 5
+2023-08-08 23:22:58,364 DEBUG   SenderThread:526303 [sender.py:send_request():250] send_request: defer
+2023-08-08 23:22:58,364 INFO    SenderThread:526303 [sender.py:send_request_defer():389] handle sender defer: 5
+2023-08-08 23:22:58,463 DEBUG   HandlerThread:526303 [handler.py:handle_request():140] handle_request: poll_exit
+2023-08-08 23:22:58,565 INFO    SenderThread:526303 [sender.py:transition_state():393] send defer: 6
+2023-08-08 23:22:58,565 DEBUG   SenderThread:526303 [sender.py:send_request():250] send_request: poll_exit
+2023-08-08 23:22:58,566 DEBUG   HandlerThread:526303 [handler.py:handle_request():140] handle_request: defer
+2023-08-08 23:22:58,566 INFO    HandlerThread:526303 [handler.py:handle_request_defer():163] handle defer: 6
+2023-08-08 23:22:58,566 DEBUG   SenderThread:526303 [sender.py:send_request():250] send_request: defer
+2023-08-08 23:22:58,566 INFO    SenderThread:526303 [sender.py:send_request_defer():389] handle sender defer: 6
+2023-08-08 23:22:58,566 INFO    SenderThread:526303 [dir_watcher.py:finish():353] shutting down directory watcher
+2023-08-08 23:22:58,671 DEBUG   HandlerThread:526303 [handler.py:handle_request():140] handle_request: poll_exit
+2023-08-08 23:22:58,880 WARNING MainThread:526303 [internal.py:wandb_internal():153] Internal process interrupt: 1
+2023-08-08 23:22:58,973 INFO    Thread-7  :526303 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/mateo/local_phoenix_ws/src/robot_dataset/scripts/wandb/run-20230808_232254-v369x7e4/files/wandb-summary.json
+2023-08-08 23:22:58,974 INFO    SenderThread:526303 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/mateo/local_phoenix_ws/src/robot_dataset/scripts/wandb/run-20230808_232254-v369x7e4/files/config.yaml
+2023-08-08 23:22:58,974 INFO    SenderThread:526303 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/mateo/local_phoenix_ws/src/robot_dataset/scripts/wandb/run-20230808_232254-v369x7e4/files/output.log
+2023-08-08 23:22:58,974 INFO    SenderThread:526303 [dir_watcher.py:finish():383] scan: /home/mateo/local_phoenix_ws/src/robot_dataset/scripts/wandb/run-20230808_232254-v369x7e4/files
+2023-08-08 23:22:58,974 INFO    SenderThread:526303 [dir_watcher.py:finish():397] scan save: /home/mateo/local_phoenix_ws/src/robot_dataset/scripts/wandb/run-20230808_232254-v369x7e4/files/output.log output.log
+2023-08-08 23:22:58,974 INFO    SenderThread:526303 [dir_watcher.py:finish():397] scan save: /home/mateo/local_phoenix_ws/src/robot_dataset/scripts/wandb/run-20230808_232254-v369x7e4/files/config.yaml config.yaml
+2023-08-08 23:22:58,978 INFO    SenderThread:526303 [dir_watcher.py:finish():397] scan save: /home/mateo/local_phoenix_ws/src/robot_dataset/scripts/wandb/run-20230808_232254-v369x7e4/files/wandb-metadata.json wandb-metadata.json
+2023-08-08 23:22:58,979 INFO    SenderThread:526303 [dir_watcher.py:finish():397] scan save: /home/mateo/local_phoenix_ws/src/robot_dataset/scripts/wandb/run-20230808_232254-v369x7e4/files/requirements.txt requirements.txt
+2023-08-08 23:22:58,979 INFO    SenderThread:526303 [dir_watcher.py:finish():397] scan save: /home/mateo/local_phoenix_ws/src/robot_dataset/scripts/wandb/run-20230808_232254-v369x7e4/files/wandb-summary.json wandb-summary.json
+2023-08-08 23:22:58,979 INFO    SenderThread:526303 [sender.py:transition_state():393] send defer: 7
+2023-08-08 23:22:58,979 DEBUG   SenderThread:526303 [sender.py:send_request():250] send_request: poll_exit
+2023-08-08 23:22:58,980 DEBUG   HandlerThread:526303 [handler.py:handle_request():140] handle_request: defer
+2023-08-08 23:22:58,980 INFO    HandlerThread:526303 [handler.py:handle_request_defer():163] handle defer: 7
+2023-08-08 23:22:58,983 DEBUG   SenderThread:526303 [sender.py:send_request():250] send_request: defer
+2023-08-08 23:22:58,983 INFO    SenderThread:526303 [sender.py:send_request_defer():389] handle sender defer: 7
+2023-08-08 23:22:58,983 INFO    SenderThread:526303 [file_pusher.py:finish():171] shutting down file pusher
+2023-08-08 23:22:59,095 WARNING MainThread:526303 [internal.py:wandb_internal():153] Internal process interrupt: 2
+2023-08-08 23:22:59,095 ERROR   MainThread:526303 [internal.py:wandb_internal():156] Internal process interrupted.
+2023-08-08 23:22:59,306 INFO    Thread-15 :526303 [upload_job.py:push():138] Uploaded file /home/mateo/local_phoenix_ws/src/robot_dataset/scripts/wandb/run-20230808_232254-v369x7e4/files/wandb-summary.json
+2023-08-08 23:22:59,363 INFO    WriterThread:526303 [datastore.py:close():279] close: /home/mateo/local_phoenix_ws/src/robot_dataset/scripts/wandb/run-20230808_232254-v369x7e4/run-v369x7e4.wandb
+2023-08-08 23:22:59,404 INFO    Thread-14 :526303 [upload_job.py:push():138] Uploaded file /home/mateo/local_phoenix_ws/src/robot_dataset/scripts/wandb/run-20230808_232254-v369x7e4/files/requirements.txt
+2023-08-08 23:22:59,428 INFO    Thread-13 :526303 [upload_job.py:push():138] Uploaded file /home/mateo/local_phoenix_ws/src/robot_dataset/scripts/wandb/run-20230808_232254-v369x7e4/files/config.yaml
+2023-08-08 23:22:59,431 INFO    Thread-12 :526303 [upload_job.py:push():138] Uploaded file /home/mateo/local_phoenix_ws/src/robot_dataset/scripts/wandb/run-20230808_232254-v369x7e4/files/output.log
+2023-08-08 23:22:59,466 INFO    MainThread:526303 [internal.py:handle_exit():80] Internal process exited

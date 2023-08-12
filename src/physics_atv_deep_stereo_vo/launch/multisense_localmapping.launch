@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+
+<launch>
+    <node pkg="physics_atv_deep_stereo_vo" type="stereo_node_multisense.py" name="stereo_node_multisense" output="screen" > 
+        <param name ="/pc_transform_ground" value="true"/>
+        <param name ="/pc_max_dist" value="10.0"/>
+        <param name ="/pc_min_dist" value="2"/>
+        <param name ="/pc_max_height" value="2.0"/>
+        <param name ="/image_rect" value="false"/>
+
+    </node>
+
+
+    <arg name="leaf_size" default="0.04" />
+
+    <node name="voxel_grid"
+        pkg="nodelet" type="nodelet"
+        args="standalone pcl/VoxelGrid">
+    <remap from="~input" to="/deep_cloud" />
+    <rosparam subst_value="true">
+      filter_field_name: ''
+      leaf_size: $(arg leaf_size)
+    </rosparam>
+    </node>
+
+    <node name="statistical_outlier_removal"
+        pkg="nodelet" type="nodelet"
+        args="standalone pcl/StatisticalOutlierRemoval">
+        <remap from="~input" to="voxel_grid/output" />
+        <rosparam>
+            mean_k: 10
+            stddev: 1.5
+        </rosparam>
+    </node>
+
+    <!-- <node pkg="physics_atv_deep_stereo_vo" type="tartanvo_node.py" name="tartanvo_node" output="screen" > 
+
+    </node> -->
+  
+    <!-- <node pkg="tf" type="static_transform_publisher" name="atv_multisense" args="0.0 0.0 1.77348523 0.99220717 0.00153886 -0.12397937  0.01231552 atv multisense_init 100" /> -->
+
+</launch>

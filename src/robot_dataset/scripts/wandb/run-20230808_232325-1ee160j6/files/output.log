@@ -1,0 +1,57 @@
+waiting 2s for topics...
+Iteration 1/1000000
+Iteration 2/1000000
+Iteration 3/1000000
+Iteration 4/1000000
+Iteration 5/1000000
+Iteration 6/1000000
+Iteration 7/1000000
+Iteration 8/1000000
+Iteration 9/1000000
+Iteration 10/1000000
+Creating TerrainMap
+> /home/mateo/local_phoenix_ws/src/learned_cost_map/scripts/learned_cost_map/terrain_utils/terrain_map_tartandrive.py(272)get_origin_crop_batch()
+-> map_p_low = torch.tensor([0, 0]).to(self.device).view(1, 1, 2)
+(Pdb)
+Traceback (most recent call last):
+  File "online_hdif.py", line 160, in <module>
+    main()
+  File "online_hdif.py", line 137, in main
+    train_metrics = agent.update(model, batch, data_transform, optimizer)
+  File "/home/mateo/local_phoenix_ws/src/robot_dataset/src/robot_dataset/agents/mse.py", line 19, in update
+    input_data, ground_truth = data_transform(batch)
+  File "online_hdif.py", line 45, in transform
+    input_data = produce_training_input(maps, map_metadata, crop_params, vel=vel, fourier_freqs=fourier_freqs)
+  File "/home/mateo/local_phoenix_ws/src/learned_cost_map/scripts/learned_cost_map/utils/costmap_utils.py", line 635, in produce_training_input
+    patch = tm.get_origin_crop_batch(crop_params=crop_params)
+  File "/home/mateo/local_phoenix_ws/src/learned_cost_map/scripts/learned_cost_map/terrain_utils/terrain_map_tartandrive.py", line 272, in get_origin_crop_batch
+    map_p_low = torch.tensor([0, 0]).to(self.device).view(1, 1, 2)
+  File "/home/mateo/local_phoenix_ws/src/learned_cost_map/scripts/learned_cost_map/terrain_utils/terrain_map_tartandrive.py", line 272, in get_origin_crop_batch
+    map_p_low = torch.tensor([0, 0]).to(self.device).view(1, 1, 2)
+  File "/usr/lib/python3.8/bdb.py", line 88, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/usr/lib/python3.8/bdb.py", line 113, in dispatch_line
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit
+/usr/lib/python3/dist-packages/apport/report.py:13: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import fnmatch, glob, traceback, errno, sys, atexit, imp, stat
+Traceback (most recent call last):
+  File "online_hdif.py", line 160, in <module>
+    main()
+  File "online_hdif.py", line 137, in main
+    train_metrics = agent.update(model, batch, data_transform, optimizer)
+  File "/home/mateo/local_phoenix_ws/src/robot_dataset/src/robot_dataset/agents/mse.py", line 19, in update
+    input_data, ground_truth = data_transform(batch)
+  File "online_hdif.py", line 45, in transform
+    input_data = produce_training_input(maps, map_metadata, crop_params, vel=vel, fourier_freqs=fourier_freqs)
+  File "/home/mateo/local_phoenix_ws/src/learned_cost_map/scripts/learned_cost_map/utils/costmap_utils.py", line 635, in produce_training_input
+    patch = tm.get_origin_crop_batch(crop_params=crop_params)
+  File "/home/mateo/local_phoenix_ws/src/learned_cost_map/scripts/learned_cost_map/terrain_utils/terrain_map_tartandrive.py", line 272, in get_origin_crop_batch
+    map_p_low = torch.tensor([0, 0]).to(self.device).view(1, 1, 2)
+  File "/home/mateo/local_phoenix_ws/src/learned_cost_map/scripts/learned_cost_map/terrain_utils/terrain_map_tartandrive.py", line 272, in get_origin_crop_batch
+    map_p_low = torch.tensor([0, 0]).to(self.device).view(1, 1, 2)
+  File "/usr/lib/python3.8/bdb.py", line 88, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/usr/lib/python3.8/bdb.py", line 113, in dispatch_line
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit

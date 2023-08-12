@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+
+<launch>
+    <node pkg="physics_atv_deep_stereo_vo" type="stereo_node_multisense.py" name="stereo_node_multisense" output="screen" > 
+        <param name ="/pc_transform_ground" value="false"/>
+        <param name ="/pc_max_dist" value="12.0"/>
+        <param name ="/pc_min_dist" value="1"/>
+        <param name ="/pc_max_height" value="2.0"/>
+        <param name ="/image_rect" value="true"/>
+        <param name ="/color_image_topic" value="/multisense/left/image_rect_color"/>
+        <param name ="/visualize_depth" value="false"/>
+        <param name ="/image_input_w" value="512"/>
+        <param name ="/image_input_h" value="256"/>
+        <param name ="/image_compressed" value="false"/>
+
+    </node>
+
+
+    <node pkg="physics_atv_deep_stereo_vo" type="tartanvo_node.py" name="tartanvo_node" output="screen" > 
+    </node> 
+
+    <node pkg="physics_atv_local_mapping" type="local_mapping_node" name="localmapping_node" output="screen" > <!-- launch-prefix="xterm -e gdb -args"  -->
+        <param name ="/filter_outliers" value="false"/>
+        <param name ="/downsample_pointcloud_before" value="false"/>
+        <param name ="/downsample_leafsize_before" value="0.05"/>
+        <param name ="/downsample_pointcloud_after" value="true"/>
+        <param name ="/downsample_leafsize_after" value="0.02"/>
+        <param name ="/resolution" value="0.02"/>
+        <param name ="/max_x" value="10"/>
+        <param name ="/min_x" value="-2"/>
+        <param name ="/max_y" value="6"/>
+        <param name ="/min_y" value="-6"/>
+        <param name ="/visualize_maps" value="false"/>
+        <param name ="/publish_pc_for_debug" value="false"/>
+
+    </node> 
+
+    <!-- <node pkg="physics_atv_local_mapping" type="LocalMappingRegister.py" name="localmapping_node" output="screen" > 
+        <param name ="/min_x" value="0."/>
+        <param name ="/max_x" value="10.0"/>
+        <param name ="/min_y" value="-5."/>
+        <param name ="/max_y" value="5.0"/>
+        <param name ="/resolution" value="0.02"/>
+        <param name ="/visualize_maps" value="false"/>
+    </node>  -->
+  
+<!--     <arg name="leaf_size" default="0.05" />
+
+    <node name="voxel_grid"
+        pkg="nodelet" type="nodelet"
+        args="standalone pcl/VoxelGrid">
+    <remap from="~input" to="/deep_cloud" />
+    <rosparam subst_value="true">
+      filter_field_name: ''
+      leaf_size: $(arg leaf_size)
+    </rosparam>
+    </node>
+
+    <node name="statistical_outlier_removal"
+        pkg="nodelet" type="nodelet"
+        args="standalone pcl/StatisticalOutlierRemoval">
+        <remap from="~input" to="voxel_grid/output" />
+        <rosparam>
+            mean_k: 10
+            stddev: 1.5
+        </rosparam>
+    </node> -->
+  
+    <!-- <node pkg="tf" type="static_transform_publisher" name="atv_multisense" args="0.0 0.0 1.77348523 0.99220717 0.00153886 -0.12397937  0.01231552 atv multisense_init 100" /> -->
+
+</launch>

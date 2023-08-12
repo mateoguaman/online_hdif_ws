@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+
+<launch>
+
+    <arg name="leaf_size" default="0.1" />
+
+    <node name="voxel_grid"
+        pkg="nodelet" type="nodelet"
+        args="standalone pcl/VoxelGrid">
+    <remap from="~input" to="/deep_cloud" />
+    <rosparam subst_value="true">
+      filter_field_name: ''
+      leaf_size: $(arg leaf_size)
+    </rosparam>
+    </node>
+
+    <node name="statistical_outlier_removal"
+        pkg="nodelet" type="nodelet"
+        args="standalone pcl/StatisticalOutlierRemoval">
+        <remap from="~input" to="voxel_grid/output" />
+        <rosparam>
+            mean_k: 10
+            stddev: 1.5
+        </rosparam>
+    </node>
+
+    <!-- <node pkg="tf" type="static_transform_publisher" name="atv_multisense" args="0.0 0.0 1.77348523 0.99220717 0.00153886 -0.12397937  0.01231552 atv multisense_init 100" /> -->
+
+</launch>

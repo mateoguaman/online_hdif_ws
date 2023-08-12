@@ -1,0 +1,39 @@
+waiting 2s for topics...
+Iteration 1/1000000
+Iteration 2/1000000
+Iteration 3/1000000
+Iteration 4/1000000
+Iteration 5/1000000
+Iteration 6/1000000
+Iteration 7/1000000
+Iteration 8/1000000
+Iteration 9/1000000
+Iteration 10/1000000
+Training loss: 14.507773399353027
+Training loss: 5.919731140136719
+Training loss: 2.0412070751190186
+Training loss: 0.501155436038971
+Training loss: 0.31568095088005066
+Training loss: 0.781484842300415
+Training loss: 1.2529850006103516
+Training loss: 1.3747622966766357
+Training loss: 1.2759498357772827
+Training loss: 1.1026031970977783
+Traceback (most recent call last):
+  File "online_robot_trainer.py", line 212, in <module>
+    main()
+  File "online_robot_trainer.py", line 205, in main
+    torch.save(model.save_dict(), model_file)
+  File "/home/mateo/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1265, in __getattr__
+    raise AttributeError("'{}' object has no attribute '{}'".format(
+AttributeError: 'MLP' object has no attribute 'save_dict'
+/usr/lib/python3/dist-packages/apport/report.py:13: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import fnmatch, glob, traceback, errno, sys, atexit, imp, stat
+Traceback (most recent call last):
+  File "online_robot_trainer.py", line 212, in <module>
+    main()
+  File "online_robot_trainer.py", line 205, in main
+    torch.save(model.save_dict(), model_file)
+  File "/home/mateo/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1265, in __getattr__
+    raise AttributeError("'{}' object has no attribute '{}'".format(
+AttributeError: 'MLP' object has no attribute 'save_dict'

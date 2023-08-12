@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+
+<launch>
+    <node pkg="physics_atv_deep_stereo_vo" type="stereo_node_multisense.py" name="stereo_node_multisense" output="screen" > 
+        <param name ="/pc_transform_ground" value="false"/>
+        <param name ="/pc_max_dist" value="20.0"/>
+        <param name ="/pc_min_dist" value="1"/>
+        <param name ="/pc_max_height" value="2.0"/>
+        <param name ="/image_rect" value="true"/>
+        <param name ="/color_image_topic" value=""/>
+        <param name ="/left_image_topic" value="/crl_rzr/multisense_front/left/image_rect"/>
+        <param name ="/right_image_topic" value="/crl_rzr/multisense_front/right/image_rect"/>
+        <param name ="/visualize_depth" value="true"/>
+        <param name ="/image_input_w" value="512"/>
+        <param name ="/image_input_h" value="256"/>
+
+        <param name ="/image_width" value="960"/>
+        <param name ="/image_height" value="600"/>
+        <param name ="/focal_x" value="600."/>
+        <param name ="/focal_y" value="600."/>
+        <param name ="/center_x" value="480."/>
+        <param name ="/center_y" value="300."/>
+        <param name ="/focal_x_baseline" value="162.0536651611328"/>
+        <param name ="/image_crop_w" value="0"/>
+        <param name ="/image_crop_h" value="60"/>
+        <param name ="/mask_file" value="racer_mask.npy"/>
+
+    </node>
+
+    <node pkg="physics_atv_deep_stereo_vo" type="tartanvo_node.py" name="tartanvo_node" output="screen" > 
+        <param name ="/left_image_topic" value="/crl_rzr/multisense_front/left/image_rect"/>
+        <param name ="/right_image_topic" value="/crl_rzr/multisense_front/right/image_rect"/>
+        <param name ="/image_width" value="960"/>
+        <param name ="/image_height" value="600"/>
+        <param name ="/focal_x" value="600."/>
+        <param name ="/focal_y" value="600."/>
+        <param name ="/center_x" value="480."/>
+        <param name ="/center_y" value="300."/>
+        <param name ="/resize_w" value="716"/>
+        <param name ="/resize_h" value="448"/>
+        <param name ="/focal_x_baseline" value="162.0536651611328"/>
+    </node> 
+
+    <node pkg="physics_atv_local_mapping" type="local_mapping_node" name="localmapping_node" output="screen" > 
+        <param name ="/filter_outliers" value="false"/>
+        <param name ="/downsample_pointcloud_before" value="false"/>
+        <param name ="/downsample_leafsize_before" value="0.05"/>
+        <param name ="/downsample_pointcloud_after" value="true"/>
+        <param name ="/downsample_leafsize_after" value="0.02"/>
+        <param name ="/resolution" value="0.05"/>
+        <param name ="/max_x" value="18"/>
+        <param name ="/min_x" value="-2"/>
+        <param name ="/max_y" value="10"/>
+        <param name ="/min_y" value="-10"/>
+        <param name ="/visualize_maps" value="false"/>
+        <param name ="/publish_pc_for_debug" value="true"/>
+        <param name ="/platform" value="racer"/>
+
+    </node> 
+
+  
+</launch>

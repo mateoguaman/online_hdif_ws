@@ -1,0 +1,40 @@
+Iteration 1/1000000
+> /home/mateo/local_phoenix_ws/src/robot_dataset/scripts/online_hdif.py(157)main()
+-> count += 1
+
+
+
+(Pdb) rospy.is_shutdown()
+False
+(Pdb) count
+1
+
+(Pdb) lifetime
+1000000
+(Pdb)
+Traceback (most recent call last):
+  File "online_hdif.py", line 161, in <module>
+    main()
+  File "online_hdif.py", line 157, in main
+    count += 1
+  File "online_hdif.py", line 157, in main
+    count += 1
+  File "/usr/lib/python3.8/bdb.py", line 88, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/usr/lib/python3.8/bdb.py", line 113, in dispatch_line
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit
+/usr/lib/python3/dist-packages/apport/report.py:13: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import fnmatch, glob, traceback, errno, sys, atexit, imp, stat
+Traceback (most recent call last):
+  File "online_hdif.py", line 161, in <module>
+    main()
+  File "online_hdif.py", line 157, in main
+    count += 1
+  File "online_hdif.py", line 157, in main
+    count += 1
+  File "/usr/lib/python3.8/bdb.py", line 88, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/usr/lib/python3.8/bdb.py", line 113, in dispatch_line
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit

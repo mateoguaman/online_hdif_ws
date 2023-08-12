@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+
+<launch>
+    <node pkg="physics_atv_deep_stereo_vo" type="stereo_node_multisense.py" name="stereo_node_multisense" output="screen" > 
+        <param name ="/pc_transform_ground" value="false"/>
+        <param name ="/pc_max_dist" value="20.0"/>
+        <param name ="/pc_min_dist" value="1"/>
+        <param name ="/pc_max_height" value="2.0"/>
+        <param name ="/image_rect" value="true"/>
+        <param name ="/color_image_topic" value=""/>
+        <param name ="/left_image_topic" value="/warty/stereo_left/image_rect_color/compressed"/>
+        <param name ="/right_image_topic" value="/warty/stereo_right/image_rect_color/compressed"/>
+        <param name ="/visualize_depth" value="true"/>
+        <param name ="/image_input_w" value="512"/>
+        <param name ="/image_input_h" value="256"/>
+
+        <param name ="/image_width" value="1440"/>
+        <param name ="/image_height" value="1080"/>
+        <!-- <param name ="/focal_x" value="1116.806778640668199"/>
+        <param name ="/focal_y" value="1116.806778640668199"/>
+        <param name ="/center_x" value="715.7025833129882812"/>
+        <param name ="/center_y" value="562.9476242065429688"/>
+        <param name ="/focal_x_baseline" value="697.5595528820824711"/> -->
+        <param name ="/focal_x" value="1125.43"/>
+        <param name ="/focal_y" value="1125.43"/>
+        <param name ="/center_x" value="770.717"/>
+        <param name ="/center_y" value="540.52"/>
+        <param name ="/focal_x_baseline" value="713.741"/>
+        <param name ="/image_crop_w" value="0"/>
+        <param name ="/image_crop_h_low" value="360"/>
+        <param name ="/image_crop_h_high" value="0"/>
+        <param name ="/image_crop_tops" value="true"/>
+        <param name ="/mask_file" value="dummy_mask.npy"/>
+        <param name ="/image_compressed" value="true"/>
+        <param name ="/stereo_maps" value="warty_maps_noprior.npy"/>
+        <param name ="/approximate_sync" value="true"/>
+
+        <param name ="/model_name" value="6_3_2_stereo_60000.pkl"/>
+        <param name ="/network_type" value="1"/>
+    </node>
+
+    <node pkg="physics_atv_local_mapping" type="local_projection_node" name="localprojection_node" output="screen" > <!-- launch-prefix="xterm -e gdb -args"  -->
+        <param name ="/resolution" value="0.02"/>
+        <param name ="/max_x" value="10"/>
+        <param name ="/min_x" value="0"/>
+        <param name ="/max_y" value="5"/>
+        <param name ="/min_y" value="-5"/>
+        <param name ="/visualize_maps" value="false"/>
+        <param name ="/publish_pc_for_debug" value="true"/>
+        <param name ="/platform" value="warthog"/>
+    </node> 
+
+
+  
+</launch>
+

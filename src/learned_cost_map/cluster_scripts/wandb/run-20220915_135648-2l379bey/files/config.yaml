@@ -1,0 +1,108 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.12.11
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.8.10
+    start_time: 1663264608
+    t:
+      1:
+      - 1
+      - 41
+      2:
+      - 1
+      - 41
+      3:
+      - 16
+      4: 3.8.10
+      5: 0.12.11
+      8:
+      - 5
+augment_data:
+  desc: null
+  value: true
+balanced_loader:
+  desc: null
+  value: true
+batch_size:
+  desc: null
+  value: 32
+crop_params:
+  desc: null
+  value:
+    crop_size:
+    - 2.0
+    - 2.0
+    output_size:
+    - 64
+    - 64
+embedding_size:
+  desc: null
+  value: 512
+eval_interval:
+  desc: null
+  value: 1
+fine_tune:
+  desc: null
+  value: false
+fourier_scale:
+  desc: null
+  value: 10.0
+gamma:
+  desc: null
+  value: 0.99
+grad_clip:
+  desc: null
+  value: null
+high_cost_prob:
+  desc: null
+  value: null
+just_eval:
+  desc: null
+  value: false
+log_dir:
+  desc: null
+  value: train_BaselineGeometricModel_lr_3e-3_g_99e-1_bal_aug_l2
+lr:
+  desc: null
+  value: 0.003
+map_metadata:
+  desc: null
+  value:
+    height: 12.0
+    origin:
+    - -2.0
+    - -6.0
+    resolution: 0.02
+    width: 12.0
+mlp_size:
+  desc: null
+  value: 512
+model_name:
+  desc: null
+  value: BaselineGeometricModel
+num_epochs:
+  desc: null
+  value: 5
+pretrained:
+  desc: null
+  value: false
+saved_freqs:
+  desc: null
+  value: null
+saved_model:
+  desc: null
+  value: null
+seq_length:
+  desc: null
+  value: 1
+wanda:
+  desc: null
+  value: false
+weight_decay:
+  desc: null
+  value: 0.0

@@ -1,0 +1,632 @@
+waiting 2s for topics...
+Iteration 1/1000000
+Iteration 2/1000000
+Iteration 3/1000000
+Iteration 4/1000000
+Iteration 5/1000000
+Iteration 6/1000000
+Iteration 7/1000000
+Iteration 8/1000000
+Iteration 9/1000000
+Iteration 10/1000000
+Training loss: 12.799272537231445
+Training loss: 5.944960594177246
+Training loss: 2.8666324615478516
+Training loss: 1.250879168510437
+Training loss: 0.3641309142112732
+Training loss: 0.05646717548370361
+Training loss: 0.3132074475288391
+Training loss: 0.8338543176651001
+Training loss: 1.247664213180542
+Training loss: 1.3827576637268066
+Iteration 11/1000000
+Iteration 12/1000000
+Iteration 13/1000000
+Iteration 14/1000000
+Iteration 15/1000000
+Iteration 16/1000000
+Iteration 17/1000000
+Iteration 18/1000000
+Iteration 19/1000000
+Iteration 20/1000000
+Training loss: 1.2961158752441406
+Training loss: 1.1465281248092651
+Training loss: 0.9461821913719177
+Training loss: 0.7273550033569336
+Training loss: 0.510197639465332
+Training loss: 0.31132596731185913
+Training loss: 0.15252402424812317
+Training loss: 0.05602981895208359
+Training loss: 0.021516453474760056
+Training loss: 0.04041917622089386
+Iteration 21/1000000
+Iteration 22/1000000
+Iteration 23/1000000
+Iteration 24/1000000
+Iteration 25/1000000
+Iteration 26/1000000
+Iteration 27/1000000
+Iteration 28/1000000
+Iteration 29/1000000
+Iteration 30/1000000
+Training loss: 0.11893324553966522
+Training loss: 0.18658892810344696
+Training loss: 0.20597867667675018
+Training loss: 0.22091591358184814
+Training loss: 0.23764203488826752
+Training loss: 0.24900250136852264
+Training loss: 0.24694892764091492
+Training loss: 0.20820116996765137
+Training loss: 0.17996764183044434
+Training loss: 0.13937857747077942
+Iteration 31/1000000
+Iteration 32/1000000
+Iteration 33/1000000
+Iteration 34/1000000
+Iteration 35/1000000
+Iteration 36/1000000
+Iteration 37/1000000
+Iteration 38/1000000
+Iteration 39/1000000
+Iteration 40/1000000
+Training loss: 0.12130288779735565
+Training loss: 0.10185428708791733
+Training loss: 0.07061570882797241
+Training loss: 0.05565463751554489
+Training loss: 0.06069497391581535
+Training loss: 0.07791925221681595
+Training loss: 0.0690532773733139
+Training loss: 0.06322582066059113
+Training loss: 0.06685338914394379
+Training loss: 0.10216012597084045
+Iteration 41/1000000
+Iteration 42/1000000
+Iteration 43/1000000
+Iteration 44/1000000
+Iteration 45/1000000
+Iteration 46/1000000
+Iteration 47/1000000
+Iteration 48/1000000
+Iteration 49/1000000
+Iteration 50/1000000
+Training loss: 0.15035367012023926
+Training loss: 0.10320081561803818
+Training loss: 0.09205695241689682
+Training loss: 0.09617292881011963
+Training loss: 0.10696233808994293
+Training loss: 0.07794574648141861
+Training loss: 0.058298300951719284
+Training loss: 0.058069419115781784
+Training loss: 0.05962681770324707
+Training loss: 0.05366780608892441
+Iteration 51/1000000
+Iteration 52/1000000
+Iteration 53/1000000
+Iteration 54/1000000
+Iteration 55/1000000
+Iteration 56/1000000
+Iteration 57/1000000
+Iteration 58/1000000
+Iteration 59/1000000
+Iteration 60/1000000
+Training loss: 0.06815649569034576
+Training loss: 0.04223605990409851
+Training loss: 0.05353044718503952
+Training loss: 0.06249013543128967
+Training loss: 0.041989974677562714
+Training loss: 0.04971834272146225
+Training loss: 0.03698020800948143
+Training loss: 0.04551532864570618
+Training loss: 0.0503087043762207
+Training loss: 0.04434148594737053
+Iteration 61/1000000
+Iteration 62/1000000
+Iteration 63/1000000
+Iteration 64/1000000
+Iteration 65/1000000
+Iteration 66/1000000
+Iteration 67/1000000
+Iteration 68/1000000
+Iteration 69/1000000
+Iteration 70/1000000
+Training loss: 0.050968341529369354
+Training loss: 0.027466079220175743
+Training loss: 0.03062954545021057
+Training loss: 0.03975112736225128
+Training loss: 0.03621756285429001
+Training loss: 0.021311437711119652
+Training loss: 0.0155756501480937
+Training loss: 0.02412591502070427
+Training loss: 0.022117404267191887
+Training loss: 0.02190912328660488
+Iteration 71/1000000
+Iteration 72/1000000
+Iteration 73/1000000
+Iteration 74/1000000
+Iteration 75/1000000
+Iteration 76/1000000
+Iteration 77/1000000
+Iteration 78/1000000
+Iteration 79/1000000
+Iteration 80/1000000
+Training loss: 0.015215049497783184
+Training loss: 0.011979376897215843
+Training loss: 0.020085683092474937
+Training loss: 0.021273400634527206
+Training loss: 0.01924537494778633
+Training loss: 0.011282511055469513
+Training loss: 0.01250898651778698
+Training loss: 0.018798023462295532
+Training loss: 0.01826423965394497
+Training loss: 0.009124649688601494
+Iteration 81/1000000
+Iteration 82/1000000
+Iteration 83/1000000
+Iteration 84/1000000
+Iteration 85/1000000
+Iteration 86/1000000
+Iteration 87/1000000
+Iteration 88/1000000
+Iteration 89/1000000
+Iteration 90/1000000
+Training loss: 0.006478660739958286
+Training loss: 0.006994003430008888
+Training loss: 0.013446129858493805
+Training loss: 0.010339895263314247
+Training loss: 0.0051436289213597775
+Training loss: 0.004799956455826759
+Training loss: 0.008430645801126957
+Training loss: 0.008984233252704144
+Training loss: 0.0042643314227461815
+Training loss: 0.002844564151018858
+Iteration 91/1000000
+Iteration 92/1000000
+Iteration 93/1000000
+Iteration 94/1000000
+Iteration 95/1000000
+Iteration 96/1000000
+Iteration 97/1000000
+Iteration 98/1000000
+Iteration 99/1000000
+Iteration 100/1000000
+Training loss: 0.0058979978784918785
+Training loss: 0.007335527800023556
+Training loss: 0.005006836727261543
+Training loss: 0.0029594129882752895
+Training loss: 0.0035545560531318188
+Training loss: 0.004737625829875469
+Training loss: 0.003376482054591179
+Training loss: 0.0023101852275431156
+Training loss: 0.002445329912006855
+Training loss: 0.0028012306429445744
+Iteration 101/1000000
+Iteration 102/1000000
+Iteration 103/1000000
+Iteration 104/1000000
+Iteration 105/1000000
+Iteration 106/1000000
+Iteration 107/1000000
+Iteration 108/1000000
+Iteration 109/1000000
+Iteration 110/1000000
+Training loss: 0.0036539658904075623
+Training loss: 0.003406038274988532
+Training loss: 0.0026518888771533966
+Training loss: 0.0024498167913407087
+Training loss: 0.0027301465161144733
+Training loss: 0.0024325326085090637
+Training loss: 0.0016044173389673233
+Training loss: 0.002089464571326971
+Training loss: 0.0016456714365631342
+Training loss: 0.002284477697685361
+Iteration 111/1000000
+Iteration 112/1000000
+Iteration 113/1000000
+Iteration 114/1000000
+Iteration 115/1000000
+Iteration 116/1000000
+Iteration 117/1000000
+Iteration 118/1000000
+Iteration 119/1000000
+Iteration 120/1000000
+Training loss: 0.0032940134406089783
+Training loss: 0.00228552776388824
+Training loss: 0.0016086235409602523
+Training loss: 0.0023083752021193504
+Training loss: 0.002327569993212819
+Training loss: 0.001864725025370717
+Training loss: 0.002019450766965747
+Training loss: 0.0019197312649339437
+Training loss: 0.0016102725639939308
+Training loss: 0.0015787656884640455
+Iteration 121/1000000
+Iteration 122/1000000
+Iteration 123/1000000
+Iteration 124/1000000
+Iteration 125/1000000
+Iteration 126/1000000
+Iteration 127/1000000
+Iteration 128/1000000
+Iteration 129/1000000
+Iteration 130/1000000
+Training loss: 0.003951798193156719
+Training loss: 0.004418676719069481
+Training loss: 0.002874984173104167
+Training loss: 0.00353774381801486
+Training loss: 0.0037161256186664104
+Training loss: 0.0045044273138046265
+Training loss: 0.004083297215402126
+Training loss: 0.004065047018229961
+Training loss: 0.0032744966447353363
+Training loss: 0.0033909869380295277
+Iteration 131/1000000
+Iteration 132/1000000
+Iteration 133/1000000
+Iteration 134/1000000
+Iteration 135/1000000
+Iteration 136/1000000
+Iteration 137/1000000
+Iteration 138/1000000
+Iteration 139/1000000
+Iteration 140/1000000
+Training loss: 0.003688727505505085
+Training loss: 0.0019060618942603469
+Training loss: 0.0035806584637612104
+Training loss: 0.003253668313845992
+Training loss: 0.0034253865014761686
+Training loss: 0.0024632855784147978
+Training loss: 0.0028132260777056217
+Training loss: 0.0021532909013330936
+Training loss: 0.002058935584500432
+Training loss: 0.002434265799820423
+Iteration 141/1000000
+Iteration 142/1000000
+Iteration 143/1000000
+Iteration 144/1000000
+Iteration 145/1000000
+Iteration 146/1000000
+Iteration 147/1000000
+Iteration 148/1000000
+Iteration 149/1000000
+Iteration 150/1000000
+Training loss: 0.002316557802259922
+Training loss: 0.0020832172594964504
+Training loss: 0.002383234677836299
+Training loss: 0.002111838199198246
+Training loss: 0.002188175218179822
+Training loss: 0.0017532816855236888
+Training loss: 0.0020589055493474007
+Training loss: 0.001753873541019857
+Training loss: 0.002052848692983389
+Training loss: 0.00161249830853194
+Iteration 151/1000000
+Iteration 152/1000000
+Iteration 153/1000000
+Iteration 154/1000000
+Iteration 155/1000000
+Iteration 156/1000000
+Iteration 157/1000000
+Iteration 158/1000000
+Iteration 159/1000000
+Iteration 160/1000000
+Training loss: 0.0014832544839009643
+Training loss: 0.0015144197968766093
+Training loss: 0.0015218472108244896
+Training loss: 0.0013676276430487633
+Training loss: 0.0016890065744519234
+Training loss: 0.0018114151898771524
+Training loss: 0.0015669474378228188
+Training loss: 0.0012966038193553686
+Training loss: 0.0011565457098186016
+Training loss: 0.000951508991420269
+Iteration 161/1000000
+Iteration 162/1000000
+Iteration 163/1000000
+Iteration 164/1000000
+Iteration 165/1000000
+Iteration 166/1000000
+Iteration 167/1000000
+Iteration 168/1000000
+Iteration 169/1000000
+Iteration 170/1000000
+Training loss: 0.0014820420183241367
+Training loss: 0.001418326748535037
+Training loss: 0.001447166665457189
+Training loss: 0.0013535096077248454
+Training loss: 0.0015434389933943748
+Training loss: 0.0014454772463068366
+Training loss: 0.0011286011431366205
+Training loss: 0.001102805370464921
+Training loss: 0.0012250794097781181
+Training loss: 0.0012518441071733832
+Iteration 171/1000000
+Iteration 172/1000000
+Iteration 173/1000000
+Iteration 174/1000000
+Iteration 175/1000000
+Iteration 176/1000000
+Iteration 177/1000000
+Iteration 178/1000000
+Iteration 179/1000000
+Iteration 180/1000000
+Training loss: 0.0016527620609849691
+Training loss: 0.0016485590022057295
+Training loss: 0.001459126709960401
+Training loss: 0.0013405238278210163
+Training loss: 0.001284371130168438
+Training loss: 0.0012655844911932945
+Training loss: 0.0014887824654579163
+Training loss: 0.0013632448390126228
+Training loss: 0.0012003473239019513
+Training loss: 0.001395094906911254
+Iteration 181/1000000
+Iteration 182/1000000
+Iteration 183/1000000
+Iteration 184/1000000
+Iteration 185/1000000
+Iteration 186/1000000
+Iteration 187/1000000
+Iteration 188/1000000
+Iteration 189/1000000
+Iteration 190/1000000
+Training loss: 0.0016116666374728084
+Training loss: 0.0010260355193167925
+Training loss: 0.001765797846019268
+Training loss: 0.001617532572709024
+Training loss: 0.00166427087970078
+Training loss: 0.0014835190959274769
+Training loss: 0.0013874148717150092
+Training loss: 0.001279559452086687
+Training loss: 0.0011982724536210299
+Training loss: 0.0013936236500740051
+Iteration 191/1000000
+Iteration 192/1000000
+Iteration 193/1000000
+Iteration 194/1000000
+Iteration 195/1000000
+Iteration 196/1000000
+Iteration 197/1000000
+Iteration 198/1000000
+Iteration 199/1000000
+Iteration 200/1000000
+Training loss: 0.0024954064283519983
+Training loss: 0.0019309058552607894
+Training loss: 0.0025251545011997223
+Training loss: 0.00177648919634521
+Training loss: 0.0016667924355715513
+Training loss: 0.0014082151465117931
+Training loss: 0.0022293063811957836
+Training loss: 0.0021220482885837555
+Training loss: 0.0018745525740087032
+Training loss: 0.0018828226020559669
+Iteration 201/1000000
+Iteration 202/1000000
+Iteration 203/1000000
+Iteration 204/1000000
+Iteration 205/1000000
+Iteration 206/1000000
+Iteration 207/1000000
+Iteration 208/1000000
+Iteration 209/1000000
+Iteration 210/1000000
+Training loss: 0.002168517094105482
+Training loss: 0.001784072956070304
+Training loss: 0.001522213569842279
+Training loss: 0.0015806762967258692
+Training loss: 0.0026297993026673794
+Training loss: 0.0016114066820591688
+Training loss: 0.0015605406370013952
+Training loss: 0.00195137073751539
+Training loss: 0.0018668053671717644
+Training loss: 0.0017537249950692058
+Iteration 211/1000000
+Iteration 212/1000000
+Iteration 213/1000000
+Iteration 214/1000000
+Iteration 215/1000000
+Iteration 216/1000000
+Iteration 217/1000000
+Iteration 218/1000000
+Iteration 219/1000000
+Iteration 220/1000000
+Training loss: 0.0017796288011595607
+Training loss: 0.001952938735485077
+Training loss: 0.0016063149087131023
+Training loss: 0.001478063641116023
+Training loss: 0.0019144628895446658
+Training loss: 0.0016559516079723835
+Training loss: 0.001705703092738986
+Training loss: 0.0017412797315046191
+Training loss: 0.001778049161657691
+Training loss: 0.001583326025865972
+Iteration 221/1000000
+Iteration 222/1000000
+Iteration 223/1000000
+Iteration 224/1000000
+Iteration 225/1000000
+Iteration 226/1000000
+Iteration 227/1000000
+Iteration 228/1000000
+Iteration 229/1000000
+Iteration 230/1000000
+Training loss: 0.001451464369893074
+Training loss: 0.0017232035752385855
+Training loss: 0.0015223121736198664
+Training loss: 0.0016856275033205748
+Training loss: 0.0015386969316750765
+Training loss: 0.0014934828504920006
+Training loss: 0.0016057805623859167
+Training loss: 0.0013810954988002777
+Training loss: 0.0014716936275362968
+Training loss: 0.00141331204213202
+Iteration 231/1000000
+Iteration 232/1000000
+Iteration 233/1000000
+Iteration 234/1000000
+Iteration 235/1000000
+Iteration 236/1000000
+Iteration 237/1000000
+Iteration 238/1000000
+Iteration 239/1000000
+Iteration 240/1000000
+Training loss: 0.00156825827434659
+Training loss: 0.001220128033310175
+Training loss: 0.001423172652721405
+Training loss: 0.0013213034253567457
+Training loss: 0.001309727318584919
+Training loss: 0.0012853959342464805
+Training loss: 0.0012246661353856325
+Training loss: 0.0010844317730516195
+Training loss: 0.0010383359622210264
+Training loss: 0.0009740555542521179
+Iteration 241/1000000
+Iteration 242/1000000
+Iteration 243/1000000
+Iteration 244/1000000
+Iteration 245/1000000
+Iteration 246/1000000
+Iteration 247/1000000
+Iteration 248/1000000
+Iteration 249/1000000
+Iteration 250/1000000
+Training loss: 0.0010356553830206394
+Training loss: 0.0007977364584803581
+Training loss: 0.0009399978443980217
+Training loss: 0.0009417323744855821
+Training loss: 0.0008007725700736046
+Training loss: 0.0008124019950628281
+Training loss: 0.0009141094051301479
+Training loss: 0.000900247017852962
+Training loss: 0.0008012111065909266
+Training loss: 0.0008770387503318489
+Iteration 251/1000000
+Iteration 252/1000000
+Iteration 253/1000000
+Iteration 254/1000000
+Iteration 255/1000000
+Iteration 256/1000000
+Iteration 257/1000000
+Iteration 258/1000000
+Iteration 259/1000000
+Iteration 260/1000000
+Training loss: 0.0008929818286560476
+Training loss: 0.0007576473290100694
+Training loss: 0.0008308164542540908
+Training loss: 0.0007835078868083656
+Training loss: 0.0007575633353553712
+Training loss: 0.0007632754277437925
+Training loss: 0.0008604945614933968
+Training loss: 0.0007799803279340267
+Training loss: 0.000747686717659235
+Training loss: 0.0008278107270598412
+Iteration 261/1000000
+Iteration 262/1000000
+Iteration 263/1000000
+Iteration 264/1000000
+Iteration 265/1000000
+Iteration 266/1000000
+Iteration 267/1000000
+Iteration 268/1000000
+Iteration 269/1000000
+Iteration 270/1000000
+Training loss: 0.0012191450223326683
+Training loss: 0.001422344008460641
+Training loss: 0.0009992615086957812
+Training loss: 0.0010743590537458658
+Training loss: 0.20139452815055847
+Training loss: 0.0007342670578509569
+Training loss: 0.0009797671809792519
+Training loss: 0.0011350295972079039
+Training loss: 0.0009725303389132023
+Training loss: 0.0008250701939687133
+Iteration 271/1000000
+Iteration 272/1000000
+Iteration 273/1000000
+Iteration 274/1000000
+Iteration 275/1000000
+Iteration 276/1000000
+Iteration 277/1000000
+Iteration 278/1000000
+Iteration 279/1000000
+Iteration 280/1000000
+Training loss: 0.0026654123794287443
+Training loss: 0.2011343091726303
+Training loss: 0.0023895963095128536
+Training loss: 0.0007801500032655895
+Training loss: 0.20006537437438965
+Training loss: 0.0021138100419193506
+Training loss: 0.00208171340636909
+Training loss: 0.0018477262929081917
+Training loss: 0.0014795217430219054
+Training loss: 0.0021501919254660606
+Iteration 281/1000000
+Iteration 282/1000000
+Iteration 283/1000000
+Iteration 284/1000000
+Iteration 285/1000000
+Iteration 286/1000000
+Iteration 287/1000000
+Iteration 288/1000000
+Iteration 289/1000000
+Iteration 290/1000000
+Training loss: 0.0014806005638092756
+Training loss: 0.3954646587371826
+Training loss: 0.19780997931957245
+Training loss: 0.19673871994018555
+Training loss: 0.38761183619499207
+Training loss: 0.006076914723962545
+Training loss: 0.19277602434158325
+Training loss: 0.004022927489131689
+Training loss: 0.19252634048461914
+Training loss: 0.005038234870880842
+Iteration 291/1000000
+Iteration 292/1000000
+Iteration 293/1000000
+Iteration 294/1000000
+Iteration 295/1000000
+Iteration 296/1000000
+Iteration 297/1000000
+Iteration 298/1000000
+Iteration 299/1000000
+Iteration 300/1000000
+Training loss: 0.006167121231555939
+Training loss: 0.3843112885951996
+Training loss: 0.005284407641738653
+Training loss: 0.1921689361333847
+Training loss: 0.006771839689463377
+Training loss: 0.005696456879377365
+Training loss: 0.0036589158698916435
+Training loss: 0.19203639030456543
+Training loss: 0.003663737326860428
+Training loss: 0.002838970860466361
+Iteration 301/1000000
+Iteration 302/1000000
+Iteration 303/1000000
+Iteration 304/1000000
+Iteration 305/1000000
+Iteration 306/1000000
+Iteration 307/1000000
+Iteration 308/1000000
+Iteration 309/1000000
+Traceback (most recent call last):
+  File "online_robot_trainer.py", line 212, in <module>
+    main()
+  File "online_robot_trainer.py", line 207, in main
+    rate.sleep()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/timer.py", line 103, in sleep
+    sleep(self._remaining(curr_time))
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/timer.py", line 165, in sleep
+    raise rospy.exceptions.ROSInterruptException("ROS shutdown request")
+rospy.exceptions.ROSInterruptException: ROS shutdown request
+/usr/lib/python3/dist-packages/apport/report.py:13: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import fnmatch, glob, traceback, errno, sys, atexit, imp, stat
+Traceback (most recent call last):
+  File "online_robot_trainer.py", line 212, in <module>
+    main()
+  File "online_robot_trainer.py", line 207, in main
+    rate.sleep()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/timer.py", line 103, in sleep
+    sleep(self._remaining(curr_time))
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/timer.py", line 165, in sleep
+    raise rospy.exceptions.ROSInterruptException("ROS shutdown request")
+rospy.exceptions.ROSInterruptException: ROS shutdown request

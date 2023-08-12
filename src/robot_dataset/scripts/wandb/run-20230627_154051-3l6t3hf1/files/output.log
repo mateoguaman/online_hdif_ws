@@ -1,0 +1,24 @@
+
+Iteration 0/1000000
+Traceback (most recent call last):
+  File "online_robot_trainer.py", line 202, in <module>
+    main()
+  File "online_robot_trainer.py", line 174, in main
+    robot_data = robot_listener.get_data()
+  File "/home/mateo/robot_dataset/src/robot_dataset/online_converter/robot_listener.py", line 171, in get_data
+    out['observations'][self.output_names[topic]] = converter.ros_to_numpy(self.queue[topic][0])
+  File "/home/mateo/robot_dataset/src/robot_dataset/dtypes/odometry.py", line 38, in ros_to_numpy
+    p = [msg.pose.pose.position.x, msg.pose.pose.position.y, msg.pose.pose.position.z]
+AttributeError: 'NoneType' object has no attribute 'pose'
+/usr/lib/python3/dist-packages/apport/report.py:13: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import fnmatch, glob, traceback, errno, sys, atexit, imp, stat
+Traceback (most recent call last):
+  File "online_robot_trainer.py", line 202, in <module>
+    main()
+  File "online_robot_trainer.py", line 174, in main
+    robot_data = robot_listener.get_data()
+  File "/home/mateo/robot_dataset/src/robot_dataset/online_converter/robot_listener.py", line 171, in get_data
+    out['observations'][self.output_names[topic]] = converter.ros_to_numpy(self.queue[topic][0])
+  File "/home/mateo/robot_dataset/src/robot_dataset/dtypes/odometry.py", line 38, in ros_to_numpy
+    p = [msg.pose.pose.position.x, msg.pose.pose.position.y, msg.pose.pose.position.z]
+AttributeError: 'NoneType' object has no attribute 'pose'

@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+
+<launch>
+    <node pkg="physics_atv_deep_stereo_vo" type="stereo_node_multisense.py" name="stereo_node_multisense" output="screen" > 
+        <param name ="/pc_transform_ground" value="false"/>
+        <param name ="/pc_max_dist" value="11.0"/>
+        <param name ="/pc_min_dist" value="2"/>
+        <param name ="/pc_max_height" value="2.0"/>
+        <param name ="/image_rect" value="false"/>
+        <param name ="/visualize_depth" value="false"/>
+        <param name ="/image_input_w" value="448"/>
+        <param name ="/image_input_h" value="256"/>
+
+    </node>
+
+
+    <node pkg="physics_atv_deep_stereo_vo" type="tartanvo_node_trt.py" name="tartanvo_node" output="screen" > 
+    </node> 
+
+    <node pkg="physics_atv_local_mapping" type="local_mapping_node" name="localmapping_node" output="screen" > <!-- launch-prefix="xterm -e gdb -args"  -->
+        <param name ="/filter_outliers" value="true"/>
+        <param name ="/downsample_pointcloud_before" value="true"/>
+        <param name ="/downsample_leafsize_before" value="0.05"/>
+        <param name ="/downsample_pointcloud_after" value="true"/>
+        <param name ="/downsample_leafsize_after" value="0.03"/>
+        <param name ="/resolution" value="0.05"/>
+        <param name ="/max_x" value="10"/>
+        <param name ="/min_x" value="0"/>
+        <param name ="/max_y" value="5"/>
+        <param name ="/min_y" value="-5"/>
+        <param name ="/visualize_maps" value="false"/>
+        <param name ="/publish_pc_for_debug" value="false"/>
+
+    </node> 
+
+</launch>

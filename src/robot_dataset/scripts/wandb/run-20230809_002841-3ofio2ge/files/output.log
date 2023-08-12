@@ -1,0 +1,301 @@
+Iteration 1/1000000
+Iteration 2/1000000
+Iteration 3/1000000
+Iteration 4/1000000
+Iteration 5/1000000
+Iteration 6/1000000
+Iteration 7/1000000
+Iteration 8/1000000
+Iteration 9/1000000
+Iteration 10/1000000
+Training loss: 0.04743703918832285
+Training loss: 0.11189081214261516
+Training loss: 0.03463506959970039
+Training loss: 0.02734432033599065
+Training loss: 0.024146377583808058
+Training loss: 0.023027323286034664
+Training loss: 0.018206672488977352
+Training loss: 0.013495691864924214
+Training loss: 0.009440747565427086
+Training loss: 0.006102169980075567
+Iteration 11/1000000
+Iteration 12/1000000
+Iteration 13/1000000
+Iteration 14/1000000
+Iteration 15/1000000
+Iteration 16/1000000
+Iteration 17/1000000
+Iteration 18/1000000
+Iteration 19/1000000
+Iteration 20/1000000
+Training loss: 0.005431787888383211
+Training loss: 0.005310762872644604
+Training loss: 0.004243378633100243
+Training loss: 0.002585739334894608
+Training loss: 0.002733082694870212
+Training loss: 0.0021453744286079714
+Training loss: 0.0018026222720957026
+Training loss: 0.0015181890156819007
+Training loss: 0.001397671194584627
+Training loss: 0.0013700962665864028
+Iteration 21/1000000
+Iteration 22/1000000
+Iteration 23/1000000
+Iteration 24/1000000
+Iteration 25/1000000
+Iteration 26/1000000
+Iteration 27/1000000
+Iteration 28/1000000
+Iteration 29/1000000
+Iteration 30/1000000
+Training loss: 0.000955907523211676
+Training loss: 0.0037244061320948303
+Training loss: 0.002036394711183689
+Training loss: 0.0015501478307585101
+Training loss: 0.002559961913297518
+Training loss: 0.0015983089555263563
+Training loss: 0.0018338153397287893
+Training loss: 0.0013778370783942952
+Training loss: 0.0010718052243289988
+Training loss: 0.0014347277877440972
+Iteration 31/1000000
+Iteration 32/1000000
+Iteration 33/1000000
+Iteration 34/1000000
+Iteration 35/1000000
+Iteration 36/1000000
+Iteration 37/1000000
+Iteration 38/1000000
+Iteration 39/1000000
+Iteration 40/1000000
+Training loss: 0.0014900845114650609
+Training loss: 0.0013184862436751888
+Training loss: 0.0011788225534248862
+Training loss: 0.0010459770328555473
+Training loss: 0.0010289060015697838
+Training loss: 0.0010176279725040336
+Training loss: 0.0009092218035117379
+Training loss: 0.0008776683585915136
+Training loss: 0.0008262600229293628
+Training loss: 0.0007897762401759147
+Iteration 41/1000000
+Iteration 42/1000000
+Iteration 43/1000000
+Iteration 44/1000000
+Iteration 45/1000000
+Iteration 46/1000000
+Iteration 47/1000000
+Iteration 48/1000000
+Iteration 49/1000000
+Iteration 50/1000000
+Training loss: 0.0008369097786220767
+Training loss: 0.0008356520067325054
+Training loss: 0.0007541134072877128
+Training loss: 0.0007468552617130188
+Training loss: 0.0007558246359751403
+Training loss: 0.0007350942304381614
+Training loss: 0.0007230002935657034
+Training loss: 0.0007231513981230331
+Training loss: 0.0007161623638163371
+Training loss: 0.0007111164777385292
+Iteration 51/1000000
+Iteration 52/1000000
+Iteration 53/1000000
+Iteration 54/1000000
+Iteration 55/1000000
+Iteration 56/1000000
+Iteration 57/1000000
+Iteration 58/1000000
+Iteration 59/1000000
+Iteration 60/1000000
+Training loss: 0.0007080314913900349
+Training loss: 0.000702805364829429
+Training loss: 0.0007025681975546285
+Training loss: 0.0007012303903923278
+Training loss: 0.0006855433815357348
+Training loss: 0.0006834681600145643
+Training loss: 0.0006911290114462176
+Training loss: 0.0006857791555965138
+Training loss: 0.0006796127474320574
+Training loss: 0.0006821106574496897
+Iteration 61/1000000
+Iteration 62/1000000
+Iteration 63/1000000
+Iteration 64/1000000
+Iteration 65/1000000
+Iteration 66/1000000
+Iteration 67/1000000
+Iteration 68/1000000
+Iteration 69/1000000
+Iteration 70/1000000
+Training loss: 0.0006808518299939002
+Training loss: 0.0006794287607883151
+Training loss: 0.0006779655704828539
+Training loss: 0.0006741934749853341
+Training loss: 0.0006732037738126089
+Training loss: 0.0006745477465569685
+Training loss: 0.0006728032989343188
+Training loss: 0.0006722154134868087
+Training loss: 0.0006720582097196714
+Training loss: 0.0006706671155754399
+Iteration 71/1000000
+Iteration 72/1000000
+Iteration 73/1000000
+Iteration 74/1000000
+Iteration 75/1000000
+Iteration 76/1000000
+Iteration 77/1000000
+Iteration 78/1000000
+Iteration 79/1000000
+Iteration 80/1000000
+Training loss: 0.0006710387935908039
+Training loss: 0.0006718621078996292
+Training loss: 0.0006700424894150182
+Training loss: 0.0006692917980949928
+Training loss: 0.0006694841282447205
+Training loss: 0.0006681918110925144
+Training loss: 0.0006676633496487431
+Training loss: 0.0006682413803234194
+Training loss: 0.0006681111034567051
+Training loss: 0.0006679070983067285
+Iteration 81/1000000
+Iteration 82/1000000
+Iteration 83/1000000
+Iteration 84/1000000
+Iteration 85/1000000
+Iteration 86/1000000
+Iteration 87/1000000
+Iteration 88/1000000
+Iteration 89/1000000
+Iteration 90/1000000
+Training loss: 0.0006675385791805153
+Training loss: 0.0006667830472541342
+Training loss: 0.0006668782984922379
+Training loss: 0.0006669368730788713
+Training loss: 0.0006664000661789383
+Training loss: 0.0006662961047752623
+Training loss: 0.0006661811504842684
+Training loss: 0.0006658264834215034
+Training loss: 0.0006659025990476937
+Training loss: 0.0006657302244942898
+Iteration 91/1000000
+Iteration 92/1000000
+Iteration 93/1000000
+Iteration 94/1000000
+Iteration 95/1000000
+Iteration 96/1000000
+Iteration 97/1000000
+Iteration 98/1000000
+Iteration 99/1000000
+Iteration 100/1000000
+Training loss: 0.0006653927851666868
+Training loss: 0.0006654811348166315
+Training loss: 0.0006653983217666952
+Training loss: 0.0006650900035987777
+Training loss: 0.0006649981470676037
+Training loss: 0.0006648579357187829
+Training loss: 0.0006647586939280614
+Training loss: 0.0006646507916371543
+Training loss: 0.0006644978896532743
+Training loss: 0.0006644644834793991
+Iteration 101/1000000
+Iteration 102/1000000
+Iteration 103/1000000
+Iteration 104/1000000
+Iteration 105/1000000
+Iteration 106/1000000
+Iteration 107/1000000
+Iteration 108/1000000
+Iteration 109/1000000
+Iteration 110/1000000
+Training loss: 0.0006643424915832515
+Training loss: 0.0006641265410637475
+Training loss: 0.0006640713193207363
+Training loss: 0.0006639548851005584
+Training loss: 0.000663795554138061
+Training loss: 0.0006637507039425295
+Training loss: 0.0006636349578694903
+Training loss: 0.0006635033994367196
+Training loss: 0.0006634009161745808
+Training loss: 0.0006632732641824882
+Iteration 111/1000000
+Iteration 112/1000000
+Iteration 113/1000000
+Iteration 114/1000000
+Iteration 115/1000000
+Iteration 116/1000000
+Iteration 117/1000000
+Iteration 118/1000000
+Iteration 119/1000000
+Iteration 120/1000000
+Training loss: 0.0006631773479050967
+Training loss: 0.0006630605676613626
+Training loss: 0.0006629347046484503
+Training loss: 0.0006628413955628357
+Training loss: 0.0006627114985859096
+Training loss: 0.0006626025840013848
+Training loss: 0.0006624895555790639
+Training loss: 0.0006623493524570872
+Training loss: 0.00066224912637236
+Training loss: 0.0006621573336325103
+Iteration 121/1000000
+Iteration 122/1000000
+Iteration 123/1000000
+Iteration 124/1000000
+Iteration 125/1000000
+Iteration 126/1000000
+Iteration 127/1000000
+Iteration 128/1000000
+Iteration 129/1000000
+Iteration 130/1000000
+Training loss: 0.0006620031763581913
+Training loss: 0.0006618812664800379
+Training loss: 0.0006617561710929448
+Training loss: 0.000661636611814368
+Training loss: 0.000661507592205363
+Traceback (most recent call last):
+  File "online_hdif.py", line 164, in <module>
+    main()
+  File "online_hdif.py", line 143, in main
+    wandb.log(data=train_metrics, step=count)
+  File "/home/mateo/.local/lib/python3.8/site-packages/wandb/sdk/wandb_run.py", line 256, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/mateo/.local/lib/python3.8/site-packages/wandb/sdk/wandb_run.py", line 222, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/mateo/.local/lib/python3.8/site-packages/wandb/sdk/wandb_run.py", line 1543, in log
+    self._log(data=data, step=step, commit=commit)
+  File "/home/mateo/.local/lib/python3.8/site-packages/wandb/sdk/wandb_run.py", line 1334, in _log
+    self._partial_history_callback(data, step, commit)
+  File "/home/mateo/.local/lib/python3.8/site-packages/wandb/sdk/wandb_run.py", line 1223, in _partial_history_callback
+    self._backend.interface.publish_partial_history(
+  File "/home/mateo/.local/lib/python3.8/site-packages/wandb/sdk/interface/interface.py", line 553, in publish_partial_history
+    self._publish_partial_history(partial_history)
+  File "/home/mateo/.local/lib/python3.8/site-packages/wandb/sdk/interface/interface_shared.py", line 62, in _publish_partial_history
+    self._publish(rec)
+  File "/home/mateo/.local/lib/python3.8/site-packages/wandb/sdk/interface/interface_queue.py", line 49, in _publish
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown
+/usr/lib/python3/dist-packages/apport/report.py:13: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import fnmatch, glob, traceback, errno, sys, atexit, imp, stat
+Traceback (most recent call last):
+  File "online_hdif.py", line 164, in <module>
+    main()
+  File "online_hdif.py", line 143, in main
+    wandb.log(data=train_metrics, step=count)
+  File "/home/mateo/.local/lib/python3.8/site-packages/wandb/sdk/wandb_run.py", line 256, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/mateo/.local/lib/python3.8/site-packages/wandb/sdk/wandb_run.py", line 222, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/mateo/.local/lib/python3.8/site-packages/wandb/sdk/wandb_run.py", line 1543, in log
+    self._log(data=data, step=step, commit=commit)
+  File "/home/mateo/.local/lib/python3.8/site-packages/wandb/sdk/wandb_run.py", line 1334, in _log
+    self._partial_history_callback(data, step, commit)
+  File "/home/mateo/.local/lib/python3.8/site-packages/wandb/sdk/wandb_run.py", line 1223, in _partial_history_callback
+    self._backend.interface.publish_partial_history(
+  File "/home/mateo/.local/lib/python3.8/site-packages/wandb/sdk/interface/interface.py", line 553, in publish_partial_history
+    self._publish_partial_history(partial_history)
+  File "/home/mateo/.local/lib/python3.8/site-packages/wandb/sdk/interface/interface_shared.py", line 62, in _publish_partial_history
+    self._publish(rec)
+  File "/home/mateo/.local/lib/python3.8/site-packages/wandb/sdk/interface/interface_queue.py", line 49, in _publish
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown

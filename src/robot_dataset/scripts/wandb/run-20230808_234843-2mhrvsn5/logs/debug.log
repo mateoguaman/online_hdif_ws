@@ -1,0 +1,29 @@
+2023-08-08 23:48:43,990 INFO    MainThread:543861 [wandb_setup.py:_EarlyLogger._flush():76] Configure stats pid to 543861
+2023-08-08 23:48:43,991 INFO    MainThread:543861 [wandb_setup.py:_EarlyLogger._flush():76] Loading settings from /home/mateo/.config/wandb/settings
+2023-08-08 23:48:43,991 INFO    MainThread:543861 [wandb_setup.py:_EarlyLogger._flush():76] Loading settings from /home/mateo/local_phoenix_ws/src/robot_dataset/scripts/wandb/settings
+2023-08-08 23:48:43,991 INFO    MainThread:543861 [wandb_setup.py:_EarlyLogger._flush():76] Loading settings from environment variables: {}
+2023-08-08 23:48:43,991 INFO    MainThread:543861 [wandb_setup.py:_EarlyLogger._flush():76] Inferring run settings from compute environment: {'program_relpath': 'online_hdif.py', 'program': 'online_hdif.py'}
+2023-08-08 23:48:43,991 INFO    MainThread:543861 [wandb_init.py:_WandbInit._log_setup():461] Logging user logs to /home/mateo/local_phoenix_ws/src/robot_dataset/scripts/wandb/run-20230808_234843-2mhrvsn5/logs/debug.log
+2023-08-08 23:48:43,991 INFO    MainThread:543861 [wandb_init.py:_WandbInit._log_setup():462] Logging internal logs to /home/mateo/local_phoenix_ws/src/robot_dataset/scripts/wandb/run-20230808_234843-2mhrvsn5/logs/debug-internal.log
+2023-08-08 23:48:43,991 INFO    MainThread:543861 [wandb_init.py:_WandbInit.init():495] calling init triggers
+2023-08-08 23:48:43,991 INFO    MainThread:543861 [wandb_init.py:_WandbInit.init():498] wandb.init called with sweep_config: {}
+config: {'lr': 0.001, 'buffer_capacity': 200, 'replay_ratio': 10, 'batch_size': 64, 'training_freq': 10, 'save_freq': 10}
+2023-08-08 23:48:43,991 INFO    MainThread:543861 [wandb_init.py:_WandbInit.init():548] starting backend
+2023-08-08 23:48:43,991 INFO    MainThread:543861 [backend.py:Backend._multiprocessing_setup():97] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-08-08 23:48:44,009 INFO    MainThread:543861 [backend.py:Backend.ensure_launched():217] starting backend process...
+2023-08-08 23:48:44,022 INFO    MainThread:543861 [backend.py:Backend.ensure_launched():222] started backend process with pid: 543976
+2023-08-08 23:48:44,023 INFO    MainThread:543861 [wandb_init.py:_WandbInit.init():558] backend started and connected
+2023-08-08 23:48:44,027 INFO    MainThread:543861 [wandb_init.py:_WandbInit.init():634] updated telemetry
+2023-08-08 23:48:44,029 INFO    MainThread:543861 [wandb_init.py:_WandbInit.init():665] communicating run to backend with 30 second timeout
+2023-08-08 23:48:44,880 INFO    MainThread:543861 [wandb_run.py:Run._on_init():1919] communicating current version
+2023-08-08 23:48:44,969 INFO    MainThread:543861 [wandb_run.py:Run._on_init():1923] got version response upgrade_message: "wandb version 0.15.8 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-08-08 23:48:44,970 INFO    MainThread:543861 [wandb_init.py:_WandbInit.init():700] starting run threads in backend
+2023-08-08 23:48:45,077 INFO    MainThread:543861 [wandb_run.py:Run._console_start():1893] atexit reg
+2023-08-08 23:48:45,077 INFO    MainThread:543861 [wandb_run.py:Run._redirect():1766] redirect: SettingsConsole.REDIRECT
+2023-08-08 23:48:45,078 INFO    MainThread:543861 [wandb_run.py:Run._redirect():1771] Redirecting console.
+2023-08-08 23:48:45,079 INFO    MainThread:543861 [wandb_run.py:Run._redirect():1827] Redirects installed.
+2023-08-08 23:48:45,079 INFO    MainThread:543861 [wandb_init.py:_WandbInit.init():732] run started, returning control to user process
+2023-08-08 23:48:54,372 INFO    MainThread:543861 [wandb_run.py:Run._atexit_cleanup():1862] got exitcode: 1
+2023-08-08 23:48:54,372 INFO    MainThread:543861 [wandb_run.py:Run._restore():1834] restore
+2023-08-08 23:48:56,608 INFO    MainThread:543861 [wandb_run.py:Run._restore():1834] restore
